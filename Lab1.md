@@ -111,6 +111,8 @@ plot(x, exp(-0.1*x) .* sin(x), 'r'), grid
 ```
 After saving the changes. You can run it either by either click the _**run**_ button on the editor screen, or by typing the file name in your command window (you have to change the current directory to where your script file is). 
 
+### Exercises
+
 
 
 
