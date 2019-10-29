@@ -43,7 +43,7 @@ Do you agree with the final value of `a`? You can create new variables from old 
 ```
 The first line above does not show any output in the command window, because the semicolon (;) suppress the output of one line being displayed. 
 
-### Mathematical functions
+### Mathematical Functions
 
 All the common mathematical functions can be found in MATLAB, such as `sin`, `cos`, `log`, `sqrt`. Try the following commands,
 ```
@@ -98,7 +98,7 @@ Previous commands can be selected with Up-arrow and Down-arror on your keyboard.
 
 It is also useful to know that the command window can do _tab completion_: You type a few letters of a MATLAB name and then press Tab, if the name is unique, it is automatically completed. If it is not, the command window shows you all the possibilities.
 
-### The Desktop and Editor
+### The Desktop and the Editor
 
 
 
