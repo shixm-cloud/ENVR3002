@@ -87,6 +87,18 @@ Like scalars, you can also apply built-in functions to a vector. The following c
 >> y = sin(x);
 >> plot(x, y), grid
 ```
+The graph appears in a separate figure window. You can fine-tune properties of the figure by specifying more options. For example,
+```
+>> plot(x, y, '-ro', 'LineWidth', 2, 'MarkerEdgeColor', 'b', 'MarkerSize', 5), grid
+>> xlabel('x'), ylabel('sin(x)')
+>> axis([0 2*pi -1.0 1.0])
+```
+
+Previous commands can be selected with Up-arrow and Down-arror on your keyboard. MATLAB has a useful editing feature called _smart recall_. When you type the first few characters of the command you want to recall and then press the Up-arrow key, the command window automatically show previous commands starting with the same first few characters.
+
+It is also useful to know that the command window can do _tab completion_: You type a few letters of a MATLAB name and then press Tab, if the name is unique, it is automatically completed. If it is not, the command window shows you all the possibilities.
+
+### The Desktop and Editor
 
 
 
