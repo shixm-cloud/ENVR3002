@@ -24,3 +24,22 @@ The commands are executed only after you entering them. Try a few other commands
 >> 1/0
 ```
 Can you figure out what the symbols `*`, `/`, `^`, `\`, mean? (They are called **operators**). For the last command, you should get `Inf` (_infinity_). You can also use `Inf` for calculation. Try `12+Inf` and `100/Inf`. Another special value you may meet is `NaN`, which stands for _Not-a-Number_.
+
+### Variables
+
+A variable can be created simply by assigning a value to it at the command line, for example,
+```
+a = 3
+```
+This statement _**assigns**_ the value of 3 to `a`. Then try the following two lines,
+```
+>> a = a + 2
+>> a = a * 5
+```
+Do you agree with the final value of `a`? You can create new variables from old ones, like the following,
+```
+>> x = 5; y =7;
+>> z = x + y
+```
+The first line above does not show any output in the command window, because the semicolon (;) suppress the output of one line being displayed. 
+
