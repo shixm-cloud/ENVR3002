@@ -72,7 +72,22 @@ or
 ```
 >> z = [1:2:10]
 ```
-A column vector can be converted to a row vector by adding a prime symbol (') to its end. This action is called _transpose_.
+A column vector can be converted to a row vector by adding a prime symbol (') to its end. This action is called _transpose_. Try the following commands to verify.
+```
+>> x' 
+>> size(x')
+>> size(y)
+>> x' == y
+```
+The output of the last command is a logical vector. 
+
+Like scalars, you can also apply built-in functions to a vector. The following commands can draw a nice graph of sin(x).
+```
+>> x = [0 : 0.1 : 2*pi];
+>> y = sin(x);
+>> plot(x, y), grid
+```
+
 
 
 
