@@ -4,7 +4,7 @@ This is the first class of our coding lecture series. We will learn some basics 
 
 MATLAB is a software for scientific computing. The name stands for _matrix laboratory_. It can handle simple arithmetic calculations like those your scientific calculator can do, as well as complex machine learning algorithms that aids the design of BMW automobiles.
 
-Next, let's take a look at the sofeware interface first (_Lecture show MATLAB on the computer ..._)
+Next, let's take a look at the sofeware interface first (_Lecturer show MATLAB on the computer ..._)
 
 ### Arithmetic
 
@@ -100,6 +100,16 @@ It is also useful to know that the command window can do _tab completion_: You t
 
 ### The Desktop and the Editor
 
+Lecturer explain the functions some tabs in the MATLAB IDE, the _current directory_, the _workspace_ ...
+
+Sooner or later, you will meet problems which MATLAB cannot solve in one line. A collection of statements to solve such a problem is called a _program_. Then you will need to generate a script file to save your program. 
+
+Create a new script file from the MATLAB desktop. It is generally a good habit to save it first before typing in even your first line of code. MATLAB script is usually saved as a .m file. As an exercise, type the following two lines of code in your script file.
+```
+x = 0 : pi/100 :10*pi;
+plot(x, exp(-0.1*x) .* sin(x), 'r'), grid
+```
+After saving the changes. You can run it either by either click the _**run**_ button on the editor screen, or by typing the file name in your command window (you have to change the current directory to where your script file is). 
 
 
 
