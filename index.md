@@ -5,4 +5,4 @@ This website hosts the coding projects of the course _Introduction to the Atmosp
 _Essential MATLAB for Engineers and Scientists_ by Brian D. Hahn and Daniel T. Valentien is a good reference book for the use of MATLAB. Examples of the first few lectures here closely follow this book.
 
 
-### 1  [Introduction](Lab1.md)
+### 1.  [Introduction](Lab1.md)
