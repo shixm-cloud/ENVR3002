@@ -55,7 +55,7 @@ All the common mathematical functions can be found in MATLAB, such as `sin`, `co
 >> clear
 >> whos
 ```
-`whos` lists the current variables in your _**workspace**_. The command `clear` remove variables from memory. You should note that MATLAB knows the value of π, because it is one of numerous built-in functions fo MATLAB. 
+`whos` lists the current variables in your _**workspace**_. The command `clear` remove variables from memory. You should note that MATLAB knows the value of _π_, because it is one of numerous built-in functions fo MATLAB. 
 
 ### Vectors
 
