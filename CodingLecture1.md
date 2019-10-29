@@ -59,6 +59,7 @@ All the common mathematical functions can be found in MATLAB, such as `sin`, `co
 
 ### Vectors
 
+The variables we used above (e.g. `a`, `b`, `x`) are called _**scalars**_, because they are single-valued. If a variable encompasses multiple scalars in one row or one column, it is called a _row vector_ or _column vector_, respectively.
 
 
 
