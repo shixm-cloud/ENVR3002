@@ -12,5 +12,14 @@ Now let's examine MATLAB by doing some simple arithmetic. This help us gain conf
 
 Type `2+6` after the `>>` prompt, followed by **Enter**
 ```
->> 2+6 <**Enter**>
+>> 2+6 
 ```
+The commands are executed only after you entering them. Try a few other commands.
+```
+>> 3-5
+>> 2*9
+>> 3^2
+>> 10/2
+>> 2\10
+```
+Can you figure out what the symbols `*`, `/`, `^`, `\`, mean? (They are called **operators**).
