@@ -60,6 +60,20 @@ All the common mathematical functions can be found in MATLAB, such as `sin`, `co
 ### Vectors
 
 The variables we used above (e.g. `a`, `b`, `x`) are called _**scalars**_, because they are single-valued. If a variable encompasses multiple scalars in one row or one column, it is called a _row vector_ or _column vector_, respectively.
+```
+>> x = [1, 2, 3, 4, 5]
+>> y = [1; 2; 3; 4; 5]
+```
+A convenient way to create vectors with uniform interval is to use a colon (:). The following lines create row vectors ranging from 1 to 10, though they have different intervals. 
+```
+>> z = [1:10]
+```
+or
+```
+>> z = [1:2:10]
+```
+A column vector can be converted to a row vector by adding a prime symbol (') to its end. This action is called _transpose_.
+
 
 
 
