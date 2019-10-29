@@ -43,3 +43,19 @@ Do you agree with the final value of `a`? You can create new variables from old 
 ```
 The first line above does not show any output in the command window, because the semicolon (;) suppress the output of one line being displayed. 
 
+### Mathematical functions
+
+All the common mathematical functions can be found in MATLAB, such as `sin`, `cos`, `log`, `sqrt`. Try the following commands,
+```
+>> sin(pi)
+>> cos(pi/2)
+>> cosd(90)
+>> sqrt(pi)
+>> whos
+>> clear
+>> whos
+```
+`whos` lists the current variables in your _**workspace**_. The command `clear` remove variables from memory. You should note that MATLAB knows the value of `pi`, because it is one of numerous built-in functions fo MATLAB. 
+
+
+
