@@ -113,4 +113,8 @@ After saving the changes. You can run it either by either click the _**run**_ bu
 
 ### Exercises
 
-test test
+1.1 Assgin values to variables `x` and `y` on the command line, e.g., `x=5` and `y=10`. Write some statements to find the sum, difference, product, and quotient of `x` and `y`.
+
+1.2 For the same `x` and `y` in 1.1, what is the square root of `x`? What is the cosine of the square root of `y`?
+
+1.3 Write a simple program for this problem and save it to a script file. Suppose you have $1000 in the bank. Interest is compounded at the rate of 9% per year. What will your bank balance be after one year? \[_hint: you can use the function `disp` to display your calculation result; type `help disp` on the command line to get more info._] 
