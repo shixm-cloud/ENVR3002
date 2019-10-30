@@ -100,7 +100,7 @@ It is also useful to know that the command window can do _tab completion_: You t
 
 ### The Desktop and the Editor
 
-Lecturer explain the functions some tabs in the MATLAB IDE, the _current directory_, the _workspace_ ...
+Lecturer explain the functions some tabs in the MATLAB IDE, the _current directory_, the _workspace_, the _help_ system ...
 
 Sooner or later, you will meet problems which MATLAB cannot solve in one line. A collection of statements to solve such a problem is called a _program_. Then you will need to generate a script file to save your program. 
 
