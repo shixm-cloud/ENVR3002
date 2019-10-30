@@ -8,11 +8,11 @@ Next, let's take a look at the sofeware interface first (_Lecturer show MATLAB o
 
 ### Arithmetic
 
-Now let's examine MATLAB by doing some simple arithmetic. This help us gain confidence and intuiation in this computing tool we are going to use. 
+Now let's examine MATLAB by doing some simple arithmetic. This help us gain confidence and intuiation in this computing tool we are going to use.
 
 Type `2+6` after the `>>` prompt, followed by **Enter**
 ```
->> 2+6 
+>> 2+6
 ```
 The commands are executed only after you entering them. Try a few other commands.
 ```
@@ -41,7 +41,7 @@ Do you agree with the final value of `a`? You can create new variables from old 
 >> x = 5; y =7;
 >> z = x + y
 ```
-The first line above does not show any output in the command window, because the semicolon (;) suppress the output of one line being displayed. 
+The first line above does not show any output in the command window, because the semicolon (;) suppress the output of one line being displayed.
 
 ### Mathematical Functions
 
@@ -55,7 +55,7 @@ All the common mathematical functions can be found in MATLAB, such as `sin`, `co
 >> clear
 >> whos
 ```
-`whos` lists the current variables in your _**workspace**_. The command `clear` remove variables from memory. You should note that MATLAB knows the value of _π_, because it is one of numerous built-in functions fo MATLAB. 
+`whos` lists the current variables in your _**workspace**_. The command `clear` remove variables from memory. You should note that MATLAB knows the value of _π_, because it is one of numerous built-in functions fo MATLAB.
 
 ### Vectors
 
@@ -64,7 +64,7 @@ The variables we used above (e.g. `a`, `b`, `x`) are called _**scalars**_, becau
 >> x = [1, 2, 3, 4, 5]
 >> y = [1; 2; 3; 4; 5]
 ```
-A convenient way to create vectors with uniform interval is to use a colon (:). The following lines create row vectors ranging from 1 to 10, though they have different intervals. 
+A convenient way to create vectors with uniform interval is to use a colon (:). The following lines create row vectors ranging from 1 to 10, though they have different intervals.
 ```
 >> z = [1:10]
 ```
@@ -74,12 +74,12 @@ or
 ```
 A column vector can be converted to a row vector by adding a prime symbol (') to its end. This action is called _transpose_. Try the following commands to verify.
 ```
->> x' 
+>> x'
 >> size(x')
 >> size(y)
 >> x' == y
 ```
-The output of the last command is a logical vector. 
+The output of the last command is a logical vector.
 
 Like scalars, you can also apply built-in functions to a vector. The following commands can draw a nice graph of sin(x).
 ```
@@ -102,19 +102,15 @@ It is also useful to know that the command window can do _tab completion_: You t
 
 Lecturer explain the functions some tabs in the MATLAB IDE, the _current directory_, the _workspace_, the _help_ system ...
 
-Sooner or later, you will meet problems which MATLAB cannot solve in one line. A collection of statements to solve such a problem is called a _program_. Then you will need to generate a script file to save your program. 
+Sooner or later, you will meet problems which MATLAB cannot solve in one line. A collection of statements to solve such a problem is called a _program_. Then you will need to generate a script file to save your program.
 
 Create a new script file from the MATLAB desktop. It is generally a good habit to save it first before typing in even your first line of code. MATLAB script is usually saved as a .m file. As an exercise, type the following two lines of code in your script file.
 ```
 x = 0 : pi/100 :10*pi;
 plot(x, exp(-0.1*x) .* sin(x), 'r'), grid
 ```
-After saving the changes. You can run it either by either click the _**run**_ button on the editor screen, or by typing the file name in your command window (you have to change the current directory to where your script file is). 
+After saving the changes. You can run it either by either click the _**run**_ button on the editor screen, or by typing the file name in your command window (you have to change the current directory to where your script file is).
 
 ### Exercises
 
-
-
-
-
-
+test test
