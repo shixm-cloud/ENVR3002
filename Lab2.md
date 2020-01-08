@@ -146,6 +146,7 @@ The elements of a matrix can be accessed with _subscripts_. Try the following st
 ```
 You will find that the colon operator here basically represents `1:end`, all subscripts available in that dimension.
 
+### Arithmetic operations on arrays
 
 
 
