@@ -82,6 +82,13 @@ Can you work out what `c` looks like before displaying it?
 >> a = [a -1 -2]
 ```
 
+A vector can also be generated with the _colon operator_. `x = j:k` creates a unit-spaced vector `x` with elements `[j,j+1,j+2,...,k]`. `x = j:i:k` creates a regularly-spaced vector `x` using `i` as the increment between elements. The vector elements are roughly equal to `[j,j+i,j+2*i,...,k]`. Try the following statements.
+```
+>> x = 1:10
+>> x = 1:0.5:5
+>> x = 1:2:8
+>> x = 5:-1:-5
+```
 
 
 
