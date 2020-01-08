@@ -17,9 +17,9 @@ A variable name must comply with the following two rules:
 
 A variable is created simply by assigning a value to it at the command lind or in a program -- for example, 
 ```
-rain_rate = 100
-temperature = 23
-pressure = 1000
+>> rain_rate = 100
+>> temperature = 23
+>> pressure = 1000
 ```
 
 MATLAB is _case-sensitive_, which means it distinguishes between upper- and lowercase letters. Thus, `temperature`, `TEMPERATURE`, and `Temperature` are three different variables.  
@@ -49,5 +49,14 @@ The command `clear` removes all variables from the workspace. A particular varia
 
 The name MATLAB stands for _Matrix Laboratory_ because it has been designed to work with _matrices_. A matrix is a rectangular object consisting of rows and columns (e.g. a _table_). A _vector_ is a special type of matrix, having only one row or one column. MATLAB handles vectors and matrices in the same way, but because vectors are easier to think about than matrices, we start with them first. As mentioned above, MATLAB refers to scalars, vectors, and matrices generally as arrays. Vectors are one-dimensional (1D) arrays.
 
+You can initialize vectors with _explicit lists_. Try the exercises below on the command line. 
+
+2.1 Enter a statement like
+```
+>> t = [15 18 20 21 17]
+```
+This is a list of temperature values. Can you see that you have created a vector with five elements?
+
+2.2 
 
 
