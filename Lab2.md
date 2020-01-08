@@ -19,8 +19,14 @@ A variable is created simply by assigning a value to it at the command lind or i
 ```
 rain_rate = 100
 temperature = 23
+pressure = 1000
 ```
 
 MATLAB is _case-sensitive_, which means it distinguishes between upper- and lowercase letters. Thus, `temperature`, `TEMPERATURE`, and `Temperature` are three different variables.  
+
+### Workspace
+
+Another fundamental concept in MATLAB is _workspace_. If you type in the three variables above and now enter the command `who`. You should see a list of variables as follows.
+
 
 
