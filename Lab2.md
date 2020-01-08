@@ -70,16 +70,18 @@ This is a list of temperature values. Can you see that you have created a vector
 
 2.5 You can use one vector in a list for another one. Try the following:
 ```
-a = [1 2 3]
-b = [4 5]
-c = [a b]
+>> a = [1 2 3]
+>> b = [4 5]
+>> c = [a b]
 ```
 Can you work out what `c` looks like before displaying it?
 
-2.6 What about this
+2.6 What about this?
 ```
-a = [2 1 0]
-a = [a -1 -2]
+>> a = [2 1 0]
+>> a = [a -1 -2]
 ```
+
+
 
 
