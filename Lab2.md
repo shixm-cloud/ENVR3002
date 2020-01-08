@@ -98,4 +98,10 @@ Enter `x = 1:5` and then enter `x'` to display the transpose of `x`. Note that `
 >> y = [1 2 3 4 5]'
 ```
 
+We can refer to particular elements of a vector by means of _subscripts_. Complete the following exercise to see how subscripts work.
+
+### Exercies
+
+
+
 
