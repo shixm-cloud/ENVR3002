@@ -28,7 +28,7 @@ Can you figure out what the symbols `*`, `/`, `^`, mean? (They are called **oper
 
 A variable can be created simply by assigning a value to it at the command line, for example,
 ```
-a = 3
+>> a = 3
 ```
 This statement _**assigns**_ the value of 3 to `a`. Then try the following two lines,
 ```
@@ -105,8 +105,8 @@ Sooner or later, you will meet problems which MATLAB cannot solve in one line. A
 
 Create a new script file from the MATLAB desktop. It is generally a good habit to save it first before typing in even your first line of code. MATLAB script is usually saved as a .m file. As an exercise, type the following two lines of code in your script file.
 ```
-x = 0 : pi/100 :10*pi;
-plot(x, exp(-0.1*x) .* sin(x), 'r'), grid
+>> x = 0 : pi/100 :10*pi;
+>> plot(x, exp(-0.1*x) .* sin(x), 'r'), grid
 ```
 After saving the changes. You can run it either by either click the _**run**_ button on the editor screen, or by typing the file name in your command window (you have to change the current directory to where your script file is).
 
