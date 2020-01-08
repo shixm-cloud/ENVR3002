@@ -3,11 +3,10 @@
 The objective of this class is to familiarize yourself with some of the fundamentals of MATLAB programming, including:
 * Variables, operators, and expressions
 * Arrays (including vectors and matrices)
+* Operators
 * Basic input and output
-* Repetition (`for`)
-* Decision (`if`)
 
-The contents of this class prepare you for coding projects in this course.
+The contents of this class prepare you for a large portion of the coding projects in this course.
 
 ### Variables
 
@@ -129,6 +128,24 @@ a =
      1     2     3
      4     5     6
 ```
+
+A matrix may be transposed, for example, the statement `a' ` results in
+```
+ans =
+
+     1     4
+     2     5
+     3     6
+```
+
+The elements of a matrix can be accessed with _subscripts_. Try the following statements to see which elements of `a` you are accessing.
+```
+>> a(2,3)
+>> a(:,2)
+>> a(1,:)
+```
+You will find that the colon operator here basically represents `1:end`, all subscripts available in that dimension.
+
 
 
 
