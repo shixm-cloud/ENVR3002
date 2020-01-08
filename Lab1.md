@@ -20,10 +20,9 @@ The commands are executed only after you entering them. Try a few other commands
 >> 2*9
 >> 3^2
 >> 10/2
->> 2\10
 >> 1/0
 ```
-Can you figure out what the symbols `*`, `/`, `^`, `\`, mean? (They are called **operators**). For the last command, you should get `Inf` (_infinity_). You can also use `Inf` for calculation. Try `12+Inf` and `100/Inf`. Another special value you may meet is `NaN`, which stands for _Not-a-Number_.
+Can you figure out what the symbols `*`, `/`, `^`, mean? (They are called **operators**). For the last command, you should get `Inf` (_infinity_). You can also use `Inf` for calculation. Try `12+Inf` and `100/Inf`. Another special value you may meet is `NaN`, which stands for _Not-a-Number_.
 
 ### Variables
 
