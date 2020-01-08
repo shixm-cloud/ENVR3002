@@ -51,7 +51,7 @@ The name MATLAB stands for _Matrix Laboratory_ because it has been designed to w
 
 You can initialize vectors with _explicit lists_. Try the exercises below on the command line. 
 
-#### Exercises
+### Exercises
 
 2.1 Enter a statement like
 ```
@@ -89,7 +89,7 @@ A vector can also be generated with the _colon operator_. `x = j:k` creates a un
 >> x = 1:2:8
 >> x = 5:-1:-5
 ```
-Another convenient tool to create 1D array is `linspace`. You can type in `help linspace` in MATLAB to see how to use it.
+Another convenient tool to create 1D array is `linspace`. You can type `help linspace` in MATLAB to see how to use it.
 
 Al of the vectors we examined so far are _row vectors_. Each has one row and several columns. To generate _column vectors_ you need to _transpose_ row vectors. This is done with the single quote, or _apostrophe_ (`'`). 
 
