@@ -110,6 +110,12 @@ We can refer to particular elements of a vector by means of _subscripts_. Comple
 
 2.10 What about `time(1:6:end)` and `time([1 7 2 5])`? _(Yes, you can use `end` to replace 23, the subscript of the last element here. Isn't that cool?)_
 
+To summarize:
+* A subscript is indicated by parenthese
+* A subscript may be a scalar or a vector
+* In MATLAB subscripts always start at 1
+* Subscripts are always integers, i.e., fractional subscripts are not allowed.
+
 
 
 
