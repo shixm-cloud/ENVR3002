@@ -43,3 +43,4 @@ temperature      1x1                 8  double
 ```
 You can see that each variable here occupies eight _bytes_ of storage. Interestingly, their sizes are `1x1`. This is because MATLAB refers to all variables as _arrays_. A single-valued variable (_scalar_) is a 1-by-1 array -- an array with a single row and a single column.
 
+The command `clear` removes all variables from the workspace. A particular variable can be removed from the workspace (e.g. `clear rain_rate`, `clear rain_rate pressure`). The Workspace browser on the desktop provides a handy visual representation of the workspace.
