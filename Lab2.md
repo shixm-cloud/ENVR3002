@@ -7,7 +7,7 @@ The objective of this class is to familiarize yourself with some of the fundamen
 * Repetition (`for`)
 * Decision (`if`)
 
-The contents of this class prepare you for coding projects in this course, as well as some scientific and engineering problems you may encounter in the future.
+The contents of this class prepare you for coding projects in this course.
 
 ### Variables
 
@@ -59,6 +59,27 @@ You can initialize vectors with _explicit lists_. Try the exercises below on the
 ```
 This is a list of temperature values. Can you see that you have created a vector with five elements?
 
-2.2 
+2.2 Enter the command `disp(t)` to see how MATLAB display a vector.
+
+2.3 Ener the command `whos` (or look in the Workspace brower). Under the heading `Size` you will see that `t` is 1 by 5, which means 1 row and 5 columns.
+
+2.4 You can sue commas instead of spaces between vector elements if you like.
+```
+>> t = [15,18,20,21,17]
+```
+
+2.5 You can use one vector in a list for another one. Try the following:
+```
+a = [1 2 3]
+b = [4 5]
+c = [a b]
+```
+Can you work out what `c` looks like before displaying it?
+
+2.6 What about this
+```
+a = [2 1 0]
+a = [a -1 -2]
+```
 
 
