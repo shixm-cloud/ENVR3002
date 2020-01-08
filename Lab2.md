@@ -89,6 +89,8 @@ A vector can also be generated with the _colon operator_. `x = j:k` creates a un
 >> x = 1:2:8
 >> x = 5:-1:-5
 ```
+Another convenient tool to create 1D array is `linspace`. You can type in `help linspace` in MATLAB to see how to use it.
+
 
 
 
