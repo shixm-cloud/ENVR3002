@@ -51,6 +51,8 @@ The name MATLAB stands for _Matrix Laboratory_ because it has been designed to w
 
 You can initialize vectors with _explicit lists_. Try the exercises below on the command line. 
 
+#### Exercises
+
 2.1 Enter a statement like
 ```
 >> t = [15 18 20 21 17]
