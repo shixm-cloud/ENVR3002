@@ -100,7 +100,15 @@ Enter `x = 1:5` and then enter `x'` to display the transpose of `x`. Note that `
 
 We can refer to particular elements of a vector by means of _subscripts_. Complete the following exercise to see how subscripts work.
 
-### Exercies
+### Exercises
+
+2.7 Enter `time = [0:23]`. This gives you a row vector of the 24 hours.
+
+2.8 Enter `time(3)`. Here `3` is is the _subscript_. Which element of `time` do you get, the second or the third?
+
+2.9 Try `time(1:5)` and `time(6:9)`. Which elements do you get? Can you see why? _(hint: we used the colon operator here)_
+
+2.10 What about `time(1:6:end)` and `time([1 7 2 5])`? _(Yes, you can use_ `end` _) to replace 23, the subscript of the last element here. Isn't that cool?)_
 
 
 
