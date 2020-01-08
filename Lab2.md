@@ -47,5 +47,7 @@ The command `clear` removes all variables from the workspace. A particular varia
 
 ### Vectors
 
-The name MATLAB stands for _Matrix Laboratory_ because it has been designed to work with _matrices_. A matrix is a rectangular object consisting of rows and columns (e.g. a _table_). A _vector_ is a special type of matrix, having only one row or one column. 
+The name MATLAB stands for _Matrix Laboratory_ because it has been designed to work with _matrices_. A matrix is a rectangular object consisting of rows and columns (e.g. a _table_). A _vector_ is a special type of matrix, having only one row or one column. MATLAB handles vectors and matrices in the same way, but because vectors are easier to think about than matrices, we start with them first. As mentioned above, MATLAB refers to scalars, vectors, and matrices generally as arrays. Vectors are one-dimensional (1D) arrays.
+
+
 
