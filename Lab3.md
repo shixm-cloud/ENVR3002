@@ -1,4 +1,4 @@
-{% include lib/mathjax.html %}
+{% include mathjax.html %}
 
 ## 3. Thermodynamics I
 
