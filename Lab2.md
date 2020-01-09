@@ -216,7 +216,16 @@ The period (dot) is necessary for the array operations of multiplication, divisi
 
 Array operations also apply between a scalar and a nonscalar. Try `2 .* a` and `a .^ 2` at the command line. This property is called _scalar expansion_. Multiplication and division operations between scalars and nonscalars can be written with or without the period. 
 
-With arry operations, you can easily evaluate a formula repeatedly for a large set of data. This is one of MATLAB's useful features, and you should always look for ways to exploit it.
+With arry operations, you can easily evaluate a formula repeatedly for a large set of data. This is one of MATLAB's useful features, and you should always look for ways to exploit it. Let's consider, as an example, the calculation of compound interest. An amount of money _A_ invested over a period of years _n_ with an annual interest rate _r_ grows to an amount _A_(1+_r_)<sup><i>n</i></sup>. Suppose we want to calculate final balances for investments of $750, $1000, $3000, $5000, and $11,999 over 10 years with an interest rate of 9%. The following program uses array operations on a vector of initial investments to do this:
+```
+format bank
+A = [750 1000 3000 5000 11999];
+r = 0.09;
+n = 10;
+B = A * (1+r) ^ n;
+disp( [A' B'])
+```
+Here `format bank` set the output to use currency format with 2 digits after the decimal point. `disp` shows the content of the array in its brackets.
 
 ### _Exercises_
 
