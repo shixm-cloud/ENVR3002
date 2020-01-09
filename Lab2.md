@@ -4,7 +4,6 @@ The objective of this class is to familiarize yourself with some of the fundamen
 * Variables, operators, and expressions
 * Arrays (including vectors and matrices)
 * Operators
-* Basic input and output
 
 The contents of this class prepare you for a large portion of the coding projects in this course.
 
@@ -199,7 +198,7 @@ Enter the following statements at the command line:
 >> a ./ b
 >> b .^ a
 ```
-MATLAB has some additional arithmetic operators, as shown in Table 2.3 that work on corresponding elements of arrays with equal dimensions. They are called _element-by-element_ operations because they are performed element by element. For example, `a .* b` results in the following vector,
+MATLAB has some additional arithmetic operators, as shown in Table 2.3 that work on corresponding elements of arrays with equal dimensions. They are called _array_ or _element-by-element_ operations because they are performed element by element. For example, `a .* b` results in the following vector,
 ```
 [a(1)*b(1) a(2)*b(2) a(3)*b(3)]
 ```
@@ -212,6 +211,16 @@ which is, `[2 4 12]`.
 | `.*` | Multiplication |
 | `./` | Division |
 | `.^` | Power |
+
+The period (dot) is necessary for the array operations of multiplication, division, and exponentiation because these operations defined differently for matrieces (so-called _matrix operations_). For addition and subtraction, array operations and matrix operations are the same, so we do not need the period to distinguish them.
+
+Array operations also apply between a scalar and a nonscalar. Try `2 .* a` and `a .^ 2` at the command line. This property is called _scalar expansion_. Multiplication and division operations between scalars and nonscalars can be written with or without the period. 
+
+With arry operations, you can easily evaluate a formula repeatedly for a large set of data. This is one of MATLAB's useful features, and you should always look for ways to exploit it.
+
+### _Exercises_
+
+
 
 
 
