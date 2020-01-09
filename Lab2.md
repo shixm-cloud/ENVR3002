@@ -180,6 +180,15 @@ Several operations may be combined in one expression -- for example, `a * b ^ c`
 
 ### _Exercises_
 
+2.11 Evaluate the following MATLAB expressions yourself before checking the answers in MATLAB
+```
+>> 1 + 2 * 3
+>> 4 / 2 * 2
+>> 1 + 2 / 4
+>> 2 * 2 ^ 3
+>> 2 ^ (1 + 2)/3
+```
+
 
 
 
