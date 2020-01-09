@@ -157,6 +157,7 @@ They may also be represented in _scientific notation_. For example, 1.234 x 10<s
 The arithmetic operations on two _scalar_ constants or variables are shown in Table 2.1. Operators operate on _operands_ (`a` and `b` in the table).
 
 **Table 2.1** Arithmetic operations between two scalars
+
 | Operation      | Algebraic form | MATLAB  |
 |:-------------- |:--------------:|:-------:|
 | Addition       |  a + b         | `a + b` |
