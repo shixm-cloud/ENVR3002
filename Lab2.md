@@ -238,7 +238,7 @@ The output is
 
 ### _Exercises_
 
-2.12 If _C_ and _F_ are Celsius and Fahrenheit temperatures, respectively, the formula for conversion from Celsius to Fahrenheit is _F_ = 9_C_/5 + 32.
+2.12 If _C_ and _F_ are Celsius and Fahrenheit temperatures, respectively, the formula for conversion from Celsius to Fahrenheit is _F_ = 9 _C_ / 5 + 32.
 
 
 
