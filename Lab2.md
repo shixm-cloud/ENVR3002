@@ -198,8 +198,11 @@ Enter the following statements at the command line:
 >> a .* b
 >> a ./ b
 ```
-MATLAB has four additional arithmetic operators, as shown in Table 2.3 that work on corresponding elements of arrays with equal dimensions. They are called  
-
+MATLAB has four additional arithmetic operators, as shown in Table 2.3 that work on corresponding elements of arrays with equal dimensions. They are called _element-by-element_ operations because they are performed element by element. For example, `a .* b` results in the following vector,
+```
+[a(1)*b(1) a(2)*b(2) a(3)*b(3)]
+```
+which is, `[2 4 12]`.
 
 
 
