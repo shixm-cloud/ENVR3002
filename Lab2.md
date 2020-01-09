@@ -227,6 +227,15 @@ disp( [A' B'])
 ```
 Here `format bank` set the output to use currency format with 2 digits after the decimal point. `disp` shows the content of the array in its brackets.
 
+The output is 
+```
+  750.00       1775.52
+ 1000.00       2367.36
+ 3000.00       7102.09
+ 5000.00      11836.82
+11999.00      28406.00
+```
+
 ### _Exercises_
 
 
