@@ -9,7 +9,7 @@ _Essential MATLAB for Engineers and Scientists_ by Brian D. Hahn and Daniel T. V
 
 ### 2. [MATLAB Fundamentals](Lab2.md)
 
-### 3. [Thermodynamics I](Lab3.md)
+### 3. [Thermodynamics I](Lab3.html)
 
 
 
