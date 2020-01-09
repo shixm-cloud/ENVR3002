@@ -240,6 +240,18 @@ The output is
 
 2.12 If _C_ and _F_ are Celsius and Fahrenheit temperatures, respectively, the formula for conversion from Celsius to Fahrenheit is _F_ = 9 _C_ / 5 + 32.
 
+(a) Write a script that will take the Celsius temperature and display the Fahrenheit equivalent with some sort of comment, such as
+`The Fahrenheit temperature is: ...`
+Try it out on the following Celsius temperatures (answers in parentheses): 0 (32), 100 (212), -40 (-40), 37 (98.6).
+
+(b) Change the script to use vectors and array operations to compute the Fahrenheit equivalents of Celsius temperatures ranging from 20<sup>o</sup>C to 30<sup>o</sup>C in steps of 1<sup>o</sup>C, and display them in two columns with a heading, like this:
+```
+Celsius   Fahrenheit
+20.00     68.00
+21.00     69.80
+...
+30.00     86.00
+```
 
 
 
