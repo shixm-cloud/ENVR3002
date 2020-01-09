@@ -90,12 +90,14 @@ A vector can also be generated with the _colon operator_. `x = j:k` creates a un
 ```
 Another convenient tool to create 1D array is `linspace`. You can type `help linspace` in MATLAB to see how to use it.
 
-Al of the vectors we examined so far are _row vectors_. Each has one row and several columns. To generate _column vectors_ you need to _transpose_ row vectors. This is done with the single quote, or _apostrophe_ (`'`). 
+All of the vectors we examined so far are _row vectors_. Each has one row and several columns. To generate _column vectors_ you need to _transpose_ row vectors. This is done with the single quote, or _apostrophe_ (`'`). 
 
 Enter `x = 1:5` and then enter `x'` to display the transpose of `x`. Note that `x` itself remains a row vector. If you want to store the transposed vector, you need to create a new one, e.g., `y = x'`. You can also create a column vector directly:
 ```
 >> y = [1 2 3 4 5]'
 ```
+
+### Subscripts
 
 We can refer to particular elements of a vector by means of _subscripts_. Complete the following exercise to see how subscripts work.
 
