@@ -36,7 +36,7 @@ These variables remain in the workspace until you use the command `clear` to del
 ```
 Name         Size  Bytes  Class  Attributes
 
-pressure     1x1   8      double              
+pressure .   1x1   8      double              
 rain_rate    1x1   8      double              
 temperature  1x1   8      double   
 ```
