@@ -167,6 +167,8 @@ The arithmetic operations on two _scalar_ constants or variables are shown in Ta
 | Division       |  a <span>&#247;</span> b | `a / b` |
 | Power          |  a<sup>b</sup> | `a ^ b` |
 
+Several operations may be combined in one expression -- for example, `a * b ^ c`. MATLAB has strict precedence rules for which operations are performed first in such cases. The rules for the operators in Table 2.1  are shown in Table 2.2. Note that parentheses have the hightest precedence.
+
 
 
 
