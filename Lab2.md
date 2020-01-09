@@ -34,10 +34,10 @@ pressure  rain_rate  temperature
 
 These variables remain in the workspace until you use the command `clear` to delete them. the command `whos` lists the size of each variable as well,
 ```
-Name        Size	Bytes Class Attributes
-pressure		1x1   8     double
-rain_rate		1x1   8     double
-temperature	1x1   8     double
+Name        Size  Bytes  Class  Attributes
+pressure	1x1   8      double
+rain_rate	1x1   8      double
+temperature	1x1   8      double
 ```
 You can see that each variable here occupies eight _bytes_ of storage. Interestingly, their sizes are `1x1`. This is because MATLAB refers to all variables as _arrays_. A single-valued variable (_scalar_) is a 1-by-1 array -- an array with a single row and a single column.
 
