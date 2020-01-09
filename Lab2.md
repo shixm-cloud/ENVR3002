@@ -189,6 +189,16 @@ Several operations may be combined in one expression -- for example, `a * b ^ c`
 >> 2 ^ (1 + 2)/3
 ```
 
+### Arithmetic operations on arrays
+
+Enter the following statements at the command line:
+```
+>> a = [1 2 3];
+>> b = [2 2 4];
+>> a .* b
+>> a ./ b
+```
+MATLAB has four additional arithmetic operators, as shown in Table 2.3 that work on corresponding elements of arrays with equal dimensions. They are called  
 
 
 
