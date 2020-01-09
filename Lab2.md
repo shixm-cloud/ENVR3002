@@ -163,6 +163,9 @@ The arithmetic operations on two _scalar_ constants or variables are shown in Ta
 | Addition       |  a + b         | `a + b` |
 | Subtraction    |  a - b         | `a - b` |
 | Multiplication |  a <span>&#215;</span> b | `a * b` |
+| Division       |  a <span>&#247;</span> b | `a / b` |
+| Power          |  a<sup>b</sup> | `a ^ b` |
+
 
 
 
