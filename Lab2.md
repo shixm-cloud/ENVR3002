@@ -169,6 +169,16 @@ The arithmetic operations on two _scalar_ constants or variables are shown in Ta
 
 Several operations may be combined in one expression -- for example, `a * b ^ c`. MATLAB has strict precedence rules for which operations are performed first in such cases. The rules for the operators in Table 2.1  are shown in Table 2.2. Note that parentheses have the hightest precedence.
 
+**Table 2.2** Precedence of arithmetic operations
+
+| Precedence | Operator |
+|:---------- |:-------- |
+| 1 | Parentheses (round brackets) |
+| 2 | Power, left to right |
+| 3 | Multiplication and division, left to right |
+| 4 | Addition and subtraction, left to right |
+
+### _Exercises_
 
 
 
