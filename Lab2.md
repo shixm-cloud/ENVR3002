@@ -146,6 +146,15 @@ The elements of a matrix can be accessed with _subscripts_. Try the following st
 ```
 You will find that the colon operator here basically represents `1:end`, all subscripts available in that dimension.
 
+### Numbers
+
+As we have learned, numbers can be represented in MATLAB in the usual decimal form (_fixed point_) with an optional decimal point, such as `1.234`, `-123`, `.001`.
+
+They may also be represented in _scientific notation_. For example, 1.234 x 10<sup>5</sup> may be represented as `1.234e5`. This is also called _floating-point_ notation. The number has two parts: _mantissa_, which may have an optional decimal point (`1.234` in this example) and the _exponent_ (`5`), which must be an integer (signed or unsigned). mantissa and exponent must be separated by the letter `e` (or `E`). The mantissa is multiplied by the power of 10 indicated by the exponent.
+
+
+
+
 ### Arithmetic operations on arrays
 
 
