@@ -50,7 +50,7 @@ The name MATLAB stands for _Matrix Laboratory_ because it has been designed to w
 
 You can initialize vectors with _explicit lists_. Try the exercises below on the command line. 
 
-### Exercises
+### _Exercises_
 
 2.1 Enter a statement like
 ```
@@ -99,7 +99,7 @@ Enter `x = 1:5` and then enter `x'` to display the transpose of `x`. Note that `
 
 We can refer to particular elements of a vector by means of _subscripts_. Complete the following exercise to see how subscripts work.
 
-### Exercises
+### _Exercises_
 
 2.7 Enter `time = [0:23]`. This gives you a row vector of the 24 hours.
 
@@ -152,10 +152,11 @@ As we have learned, numbers can be represented in MATLAB in the usual decimal fo
 
 They may also be represented in _scientific notation_. For example, 1.234 x 10<sup>5</sup> may be represented as `1.234e5`. This is also called _floating-point_ notation. The number has two parts: _mantissa_, which may have an optional decimal point (`1.234` in this example) and the _exponent_ (`5`), which must be an integer (signed or unsigned). mantissa and exponent must be separated by the letter `e` (or `E`). The mantissa is multiplied by the power of 10 indicated by the exponent.
 
-$2 \times 3$
+### Arithmetic operators
+
+The arithmetic operations on two _scalar_ constants or variables are shown in Table 2.1. Operators operate on _operands_ (`a` and `b` in the table).
 
 
-### Arithmetic operations on arrays
 
 
 
