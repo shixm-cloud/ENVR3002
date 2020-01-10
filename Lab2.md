@@ -295,4 +295,23 @@ end
 ```
 
 
+In general the most common form of the `for` loop is
+```
+for index = j:k
+    statements;
+end
+```
+or
+```
+for index = j:m:k
+    statements;
+end
+```
+The `for` construct above executes a group of statements in a loop for a specified number of times. 
+ 
+* `j:k` -- this form increments the index variable from `j` to `k` by 1, repeating the execution of statements until index is greater than `k`.
+
+* `j:m:k` -- this form increments index by the value `m` on each iteration, or decrements index when `m` is negative.
+
+
 
