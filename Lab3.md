@@ -79,12 +79,15 @@ ______    _______    _____
 
 ### Problem 4<sup>*</sup> Hypsometric Equation 
   <sup>*</sup> _This is a homework assginment and you need to submit your code on Canvas_
-  
+
+{% include mathjax.html %}
+
 With the exercises above, you have learned on how to convert between layer thickness in pressure and in height. The hypsometric equation relates an atmospheric pressure ratio to the thickness of an atmospheric layer. 
 \\[
 z_{k+1} - z_k = \frac{R\bar{T}_{k} }{g} \ln\left(\frac{p_k}{p_{k+1}}\right)
 \\]
 
 where \\(\bar{T}_k\\) is the mean temperature of the atmosphere layer between height \\(z_{k}\\) and \\(z_{k+1}\\) (\\(p_{k+1}\\) and \\(p_k\\)). Because it uses temperature directly, instead of calculating density as intermediate step, it is more convinient.
+
 
 
