@@ -33,6 +33,7 @@ Can you also find out the pressure at the tropopause?
 
 ### Problem 2: Density Profile
 {% include mathjax.html %}
+
 Recall that the ideal gas law is
 \\[
 p = \rho R T
