@@ -111,6 +111,6 @@ Note that now you have data at **31** levels because the surface is below 1000 h
 
 Your task is to write a program to compute the height of those 31 levels using the hypsometric equation, assuming the surface is at the sea level (\\(z_1=0\,\mathrm{m}\\)). Display level index `kLevel`, pressure `p` and height `z` nicely in a table at the end of your program.
 
-_\[Hint: you can use MATLAB function `cumsum` to avoid writting a `for` loop in your code\]_
+_\[Hint: you can use MATLAB function `cumsum` to avoid use a `for` loop explicitly in your code\]_
 
 
