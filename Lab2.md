@@ -258,7 +258,31 @@ Celsius   Fahrenheit
 
 ### Repeating with `for`
 
+_Repetition_ is implemented by the `for` construct. Let's look at a couple of examples of its use, followed by explanations.
 
+#### Example 1
 
+For starters, enter the following group of statements on the command line. Enter the command `format compact` first to make the output neeter:
+```
+for i = 1:5
+     disp(i)
+end
+```
+Then change it slightly to
+```
+for i = 1:3
+     disp(i)
+end
+```
+So the `disp` statement is repeated five times and three times.
+
+#### Example 2
+
+{% include mathjax.html %}
+
+Run the following program to generate a list of _n_ and _n!_ ("_n_ factorial"). where
+\\[
+n! = 1 \times 2 \times 3 \times ... \times (n-1) \times (n)
+\\]
 
 
