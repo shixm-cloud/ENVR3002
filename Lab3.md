@@ -2,7 +2,7 @@
 
 In the exercises today you will explore the vetical structure of the atmosphere above Hong Kong. A set of observation data are given below. The first three problems are in-class exercises and the **last one** is a **homework assignment**, for which you should submit your script on Canvas.
 
-### Problem 1: Temperature Profile
+### Problem 1: Temperature Profile and Tropopause
 
 Firstly, copy the following lines to your script file to set up the vectors of observation data.
 ```
