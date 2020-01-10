@@ -37,4 +37,4 @@ Recall that the ideal gas law is
 \\[
 p = \rho R T
 \\]
-where \\( R = 287\,J K^{-1} kg^{-1}\\)
+where \\( R = 287\,\mathrm{J\,K^{-1} kg^{-1}}\\)
