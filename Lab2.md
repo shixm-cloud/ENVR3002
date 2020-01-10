@@ -4,6 +4,7 @@ The objective of this class is to familiarize yourself with some of the fundamen
 * Variables, operators, and expressions
 * Arrays (including vectors and matrices)
 * Operators
+* Repetition (`for`)
 
 The contents of this class prepare you for a large portion of the coding projects in this course.
 
@@ -254,6 +255,8 @@ Celsius   Fahrenheit
 ...
 30.00     86.00
 ```
+
+### Repeating with `for`
 
 
 
