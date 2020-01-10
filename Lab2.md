@@ -285,4 +285,14 @@ Run the following program to generate a list of _n_ and _n!_ ("_n_ factorial"). 
 n! = 1 \times 2 \times 3 \times ... \times (n-1) \times (n)
 \\]
 
+```
+n = 10;
+fact = 1;
+for k = 1:n
+    fact = k * fact;
+    disp( [k fact] )
+end
+```
+
+
 
