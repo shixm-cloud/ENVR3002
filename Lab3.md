@@ -1,6 +1,6 @@
 ## 3. Thermodynamics I
 
-In the exercises today you will explore the vetical structure of the atmosphere above Hong Kong. A set of observation data are given below. The first three problems are in-class exercises and the last one is a homework assignment, for which you should submit your script on Canvas.
+In the exercises today you will explore the vetical structure of the atmosphere above Hong Kong. A set of observation data are given below. The first three problems are in-class exercises and the **last one** is a **homework assignment**, for which you should submit your script on Canvas.
 
 ### Problem 1: Temperature Profile
 
@@ -26,3 +26,5 @@ These are data obtained at 00:00, September 15, 2018. You can display the data n
 data = table(z', p', T', 'VariableNames', ["z", "p", "T"]);
 disp(data)
 ```
+
+Now, please make a plot of temperature profile using _T_ and _z_, and identify the **height of tropopause** and the **temperature at the tropopause**. _T_ and _z_ given above are in the units of K and meter, respectively, please convert them to degree Celsius and kilometer in your plot. \[hint: you need to use the command `plot` for this task\].
