@@ -90,7 +90,7 @@ where \\(T_{k+\frac12}\\) is the mean temperature of the atmosphere layer betwee
 T_{k+\frac12} = \frac(T_k + T_{k+1}}{2}
 \\]
 
-Because the hypsometric equation uses temperature directly, instead of calculating density as intermediate step, it is more convinient.
+Because the hypsometric equation uses temperature directly, instead of calculating density as an intermediate step, it is more convinient.
 
 
 
