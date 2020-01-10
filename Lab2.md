@@ -313,5 +313,3 @@ The `for` construct above executes a group of statements in a loop for a specifi
 
 * `j:m:k` -- this form increments index by the value `m` on each iteration, or decrements index when `m` is negative.
 
-
-
