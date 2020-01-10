@@ -42,6 +42,10 @@ where \\( R = 287\,\mathrm{J\,K^{-1} kg^{-1}}\\). Please use the ideal gas law a
 
 Now, if we assume the density profile is exponential with height, can you figure out the value of the **scale height** using the fraction of the density at tropopause to that at surface? Save you calculation result to `H`.
 
-Please plot the observed density profile and exponential profile in the same plot to verify if the exponential profile is a good approximation. 
+Please plot the observed density profile and exponential profile in the same plot to verify if the exponential profile is a good approximation. The syntax to plot two lines in the same figure is
+```
+plot(x1, y1, s1, x2, y2, s2)
+```
+where `s1` and `s2` are character strings to specify line properties. For example, you can set `s1` to `'r'` and `s2` to `'b'` for using red and blue colors in your plot.
 
 
