@@ -109,4 +109,4 @@ T = [   297.37,   296.68,   294.62,   293.19,   291.72,   290.79,   290.12, ...
 ```
 Note that now you have data at **31** levels because the surface is below 1000 hPa.
 
-Your task is to write a program to compute the height of those 31 levels, assuming the surface is at the sea level (\\(z_1=0\,\mathrm{m}\\)).
+Your task is to write a program to compute the height of those 31 levels using the hypsometric equation, assuming the surface is at the sea level (\\(z_1=0\,\mathrm{m}\\)). Display level index `kLevel`, pressure `p` and height `z` nicely in a table at the end of your program.
