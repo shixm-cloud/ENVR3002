@@ -107,4 +107,6 @@ T = [   297.37,   296.68,   294.62,   293.19,   291.72,   290.79,   290.12, ...
         230.39,   224.61,   218.13,   212.89,   206.89,   203.75,   204.57, ...
         207.98,   213.06,   218.66]';
 ```
+Note that now you have data at **31** levels because the surface is below 1000 hPa.
 
+Your task is to write a program to compute the height of those 31 levels, assuming the surface is at the sea level (\\(z_1=0\,\mathrm{m}\\)).
