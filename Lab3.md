@@ -78,4 +78,4 @@ ______    _______    _____
 ```
 
 ### Problem 4<sup>*</sup> Hyposometric Equation 
-(<sup>*</sup> This is a homework assginment and you need to submit your code on Canvas)
+  <sup>*</sup> _This is a homework assginment and you need to submit your code on Canvas_
