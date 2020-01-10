@@ -1,6 +1,6 @@
 ## 3. Thermodynamics I
 
-In the exercises today you will explore the vetical structure of the atmosphere above Hong Kong. A set of observation data are given below. The first three problems are in-class exercises and the **last one** is a **homework assignment**, for which you should submit your script on Canvas.
+In the exercises today you will explore the vetical structure of the atmosphere above Hong Kong. A set of observation data are given below. The first three problems are in-class practice and the **last one** is a **homework assignment**, for which you should submit your script on Canvas.
 
 ### Problem 1: Temperature Profile and Tropopause
 
@@ -77,5 +77,14 @@ ______    _______    _____
   
 ```
 
-### Problem 4<sup>*</sup> Hyposometric Equation 
+### Problem 4<sup>*</sup> Hypsometric Equation 
   <sup>*</sup> _This is a homework assginment and you need to submit your code on Canvas_
+  
+With the exercises above, you have learned on how to convert between layer thickness in pressure and in height. The hypsometric equation relates an atmospheric pressure ratio to the thickness of an atmospheric layer. 
+\\[
+z_{k+1} - z_k = \frac{R\overline{T}}{g}\ln\left(\frac{p_k}{p_{k+1}}\right)
+\\]
+
+
+
+
