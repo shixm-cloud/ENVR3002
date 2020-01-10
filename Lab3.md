@@ -58,7 +58,7 @@ If we approximate the equation above with finite difference, we have
 \\[
 \frac{\Delta p}{\Delta z} = -g\rho
 \\]
-where \\(\Delta p\\) and \\(\Delta z\\) are the change _p_ and _z_ from level _k_ to level _k_+1. 
+where \\(\Delta p\\) and \\(\Delta z\\) are the change _p_ and _z_ from level _k_ to level _k_+1. \\(g=9.8\,\mathrm{m\,s^{-2}}\\) is the gravitational constant.
 
 Now, please calculate \\(\Delta p\\) and \\(\Delta z\\) with the observation data you have. You can save the results in two vectors `dpObs` and `dzObs`, each of which should have 29 elements. 
 
