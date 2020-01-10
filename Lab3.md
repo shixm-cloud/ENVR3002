@@ -58,5 +58,6 @@ If we approximate the equation above with finite difference, we have
 \\[
 \frac{\Delta p}{\Delta z} = -g\rho
 \\]
+where \\(\Delta p\\) and \\(\Delta z\\) are the change _p_ and _z_ from level _k_ to level _k_+1. 
 
 
