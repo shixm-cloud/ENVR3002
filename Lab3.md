@@ -38,6 +38,6 @@ Recall that the ideal gas law is
 \\[
 p = \rho R T
 \\]
-where \\( R = 287\,\mathrm{J\,K^{-1} kg^{-1}}\\). Please use the ideal gas law and data given above to calculate the **vertical profile of density**. You should save a to a vector named `rho`. Plot density as a function of height.
+where \\( R = 287\,\mathrm{J\,K^{-1} kg^{-1}}\\). Please use the ideal gas law and data given above to calculate the **vertical profile of density**. You should save a to a vector named `rho`. Plot density as a function of height. Can you identify the density at the tropopause? What fraction is it of the density at surface (1000hPa)?
 
 
