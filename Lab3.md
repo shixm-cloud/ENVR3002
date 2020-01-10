@@ -23,8 +23,8 @@ z = [    49.58,   273.79,   503.63,   738.49,   978.93,  1224.79,  1475.96, ...
 ```
 These are data obtained at 00:00, September 15, 2018. You can display the data nicely by putting them in a MATLAB _table_. The following code does this job.
 ```
-k = (1:30);
-data = table(k, z, p, T, 'VariableNames', ["k", "z", "p", "T"]);
+kLevel = (1:30);
+data = table(kLevel, z, p, T, 'VariableNames', ["kLevel", "z", "p", "T"]);
 disp(data)
 ```
 
