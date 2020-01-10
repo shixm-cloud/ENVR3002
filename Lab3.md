@@ -48,7 +48,7 @@ plot(x1, y1, s1, x2, y2, s2)
 ```
 where `s1` and `s2` are character strings to specify line properties. For example, you can set `s1` to `'r'` and `s2` to `'b'` for using red and blue colors in your plot.
 
-### Hydrostatic Balance
+### Problem 3 Hydrostatic Balance
 
 As we learned in class, the hydrostatic balance equation is 
 \\[
@@ -76,3 +76,5 @@ ______    _______    _____
   29      -2042.3    -2000
   
 ```
+
+### Problem 4 
