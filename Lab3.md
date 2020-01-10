@@ -60,4 +60,4 @@ If we approximate the equation above with finite difference, we have
 \\]
 where \\(\Delta p\\) and \\(\Delta z\\) are the change _p_ and _z_ from level _k_ to level _k_+1. 
 
-
+Now, please calculate \\(\Delta p\\) and \\(\Delta z\\) with the observation data you have. You can save the results in two vectors `dpObs` and `dzObs`, each of which should have 29 elements. 
