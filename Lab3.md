@@ -77,4 +77,4 @@ ______    _______    _____
   
 ```
 
-### Problem 4 
+### Problem 4<sup>*</sup> Hyposometric Equation 
