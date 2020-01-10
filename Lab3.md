@@ -65,4 +65,14 @@ Now, please calculate \\(\Delta p\\) and \\(\Delta z\\) with the observation dat
 Next, calculate the average density for 29 layers. For each layer, you can use the average of density at the bottom and the top of that layer, i.e. `(rho(k) + rho(k+1)) / 2`. Save the resulting vector to `rhoAvg`.
 
 Lastly, use `dzObs` and `rhoAvg` to calculate the pressure changes required by the hydrostatic balance equation. Save your result to `dpHyd`. Display `dpHyd` and `dpObs` side by side like the following to check how good is the hydrostatic balance approximation for a real atmosphere.
+```
+kLayer     dpHyd     dpObs
+______    _______    _____
 
+   1        -2520    -2500
+   2      -2526.3    -2500
+   3      -2522.4    -2500
+ ...          ...      ...
+  29      -2042.3    -2000
+  
+```
