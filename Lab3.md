@@ -62,4 +62,4 @@ where \\(\Delta p\\) and \\(\Delta z\\) are the change _p_ and _z_ from level _k
 
 Now, please calculate \\(\Delta p\\) and \\(\Delta z\\) with the observation data you have. You can save the results in two vectors `dpObs` and `dzObs`, each of which should have 29 elements. 
 
-Next, calculate the average density for 29 layers. For each layer, you can use the average of density at the bottom and the top of that layer, i.e. `(rho(k) + rho(k+1)) / 2`. Save the resulting vector to `rhoavg`.
+Next, calculate the average density for 29 layers. For each layer, you can use the average of density at the bottom and the top of that layer, i.e. `(rho(k) + rho(k+1)) / 2`. Save the resulting vector to `rhoAvg`.
