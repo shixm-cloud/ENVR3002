@@ -71,4 +71,6 @@ Tsfc = [299.98, 300.10, 300.24, 300.35, 300.42, 300.41, 300.34, 300.24, 300.19, 
         299.24, 299.13, 299.09, 299.09, 299.13, 299.17, 299.22, 299.25, 299.26, 299.27];
 ```
 
-Write code to calculate the lapse rate of observation sites and label each station as stable, conditional unstable, or unstable.
+Write code to calculate the lapse rate of observation sites and label each station as _stable_, _conditional unstable_, or _unstable_. You can use the temperature and pressure at the 975 hPa level to determine the moist adiabatic lapse rate of the environment. Write your results in a string array and display the results along with observed lapse rate in a table, like the following example.
+
+
