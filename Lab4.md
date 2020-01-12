@@ -31,3 +31,9 @@ where \\(g = 9.8\,\mathrm{m\,s^{-2}}\\) is the gravitational constant, \\(c_{pd}
 1004\,\mathrm{J\,kg^{-1}\,K^{-1}}\\) and \\(c_{pv} = 1870\,\mathrm{J\,kg^{-1}\,K^{-1}}\\) are specific heat of dry air and water vapor, respectively, at constant pressure. \\(L = 2.5\times 10^6\,\mathrm{J\,kg^{-1}}\\) is the latent heat of vaporization. 
 \\(R_d = 287\,\mathrm{J\,kg^{-1}\,K^{-1}}\\) and \\(R_v = 461\,\mathrm{J\,kg^{-1}\,K^{-1}}\\) are gas constants of dry air and water vapor, respectively. \\( \epsilon = R_d/R_v\\).
 
+Please write a script to calculate the moist adiabatic lapse rate for the temperature and pressure profiles given below. Display the results along with temperature and pressure in a table.
+
+
+
+
+
