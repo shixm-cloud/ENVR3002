@@ -11,6 +11,16 @@ Assume the pressure in the room is always the same as the pressure outside, whic
 
 ### Problem 2 Moist adiabatic process
 
-In class, we learned that the dry adiabatic lapse rate is 9.8 K/km. 
+In class, we learned that the dry adiabatic lapse rate is 9.8 K/km. For moist adiabatic process, the lapse rate is lower because of the latent heat release during the phase change of water. In this exercise you will compute the lapse rate in moist adiabatic lifting. 
+
+During moist adiabatic lifting, the air is always saturated. For given temperature and pressure, you can calculate saturation mixing ratio with the code below. Mixing ratio is defined as the ratio of the mass of water vapor to that of dry air. So 0.010 kg/kg means there is 0.01 kg water vapor in per kilogram of dry air.
+```
+% saturation vapor pressure in Pa
+es = 611.2 * exp(17.67 * (T-273.15) ./ (T - 29.65));
+% saturation mixing ratio in kg/kg
+rs = (287.0/461.5) * es ./ (p - es);
+```
+
+
 
 
