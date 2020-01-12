@@ -7,3 +7,4 @@ Suppose the volume of our class room is 300 m<sup>3</sup>. For initial temperatu
 ```
 T = [24:33]
 ```
+Assume the pressure in the room is always the same as the pressure outside, which is `p = 1000` hPa. 
