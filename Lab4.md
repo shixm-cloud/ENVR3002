@@ -20,7 +20,12 @@ es = 611.2 * exp(17.67 * (T-273.15) ./ (T - 29.65));
 % saturation mixing ratio in kg/kg
 rs = (287.0/461.5) * es ./ (p - es);
 ```
+{% include mathjax.html %}
 
+The moist diabatic lapse rate is defined by the following expression,
+\\[
+\Gamma_m = \frac{g}{c_{pd}} \frac{1+r_s}{1 + r_s\frac{c_{pv}}{c_{pd}} \left[ \frac{1 + \frac{L r_s}{R_d T}}{1 + \frac{L^2 r_s(1+r_s/\epsilon)}{R_vT^2(c_{pd} + r_s c_{pv}}}\right]
+\\]
 
 
 
