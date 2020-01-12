@@ -48,4 +48,6 @@ p = [100000.00, 97500.00, 95000.00, 92500.00, 90000.00, 87500.00, 85000.00, ...
 
 Calculate late potential temperature for the profiles given in Problem 3. Make a plot of potential temperature as a function of pressure. Can you guess where the tropopause is with this plot? _[Hint: you can use the command `set(gca, 'YDir','reverse')` to reverse the y axis of your plot]_.
 
+### Problem 4 Static Stability<sup>*</sup>
+  <sup>*</sup> _This is a homework assginment and you need to submit your code on Canvas_
 
