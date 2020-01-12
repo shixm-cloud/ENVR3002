@@ -83,4 +83,4 @@ Write code to calculate the lapse rate of observation sites and label each stati
 
 ```        
 
-### Appendix _**Decisions**_
+### Appendix: _**Decisions**_
