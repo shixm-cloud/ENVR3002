@@ -80,6 +80,7 @@ Write code to calculate the lapse rate of observation sites and label each stati
         9.74        "conditional unstable"
         ...         ...
         7.70        "conditional unstable"
+
 ```        
 
 
