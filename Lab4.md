@@ -24,8 +24,8 @@ rs = (287.0/461.5) * es ./ (p - es);
 
 The moist diabatic lapse rate is defined by the following expression,
 \\[
-\Gamma_m = \frac{g}{c_{pd}} \frac{1+r_s}{1 + r_s c_{pv} /c_{pd}}  \frac{1 +
-L r_s/(R_d T)}{1 + L^2 r_s (1+r_s/\epsilon)/[R_v T^2 (c_{pd} + r_s c_{pv})]}
+\Gamma_m = \frac{g}{c_{pd}}\cdot \frac{1+r_s}{1 + r_s c_{pv} /c_{pd}}\cdot \\
+\frac{1 + L r_s/(R_d T)}{1 + L^2 r_s (1+r_s/\epsilon)/[R_v T^2 (c_{pd} + r_s c_{pv})]}
 \\]
 where \\(g = 9.8\,\mathrm{m\,s^{-2}}\\) is the gravitational constant, \\(c_{pd} = 
 1004\,\mathrm{J\,kg^{-1}\,K^{-1}}\\) and \\(c_{pv} = 1870\,\mathrm{J\,kg^{-1}\,K^{-1}}\\) are specific heat of dry air and water vapor, respectively, at constant pressure. \\(L = 2.5\times 10^6\,\mathrm{J\,kg^{-1}}\\) is the latent heat of vaporization. 
