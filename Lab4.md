@@ -51,7 +51,7 @@ Calculate late potential temperature for the profiles given in Problem 3. Make a
 ### Problem 4 Static Stability<sup>*</sup>
   <sup>*</sup> _This is a homework assginment and you need to submit your code on Canvas_
 
-Data below is observed in the Northeastern Indian Ocean. `z975` is the height of the 975 hPa pressure level, `zsfc` is the surface height of the observation station. `T975` and `Tsfc` are the temperature observed at the 975 hPa level and surface.
+Data below is observed in the Northeastern Indian Ocean. `z975` is the height of the 975 hPa pressure level, `zsfc` is the surface height of the observation station. `T975` and `Tsfc` are the temperature observed at the 975 hPa level and surface, respectively.
 ```
 z975 = [313.07, 313.11, 313.36, 313.72, 314.11, 314.37, 314.44, 314.24, 313.76, 313.18, ...
         312.64, 312.30, 312.15, 312.14, 312.02, 311.87, 311.71, 311.59, 311.29, 310.79, ... 
@@ -70,3 +70,5 @@ Tsfc = [299.98, 300.10, 300.24, 300.35, 300.42, 300.41, 300.34, 300.24, 300.19, 
         299.38, 299.41, 299.44, 299.47, 299.48, 299.48, 299.46, 299.43, 299.39, 299.35, ... 
         299.24, 299.13, 299.09, 299.09, 299.13, 299.17, 299.22, 299.25, 299.26, 299.27];
 ```
+
+Write code to calculate the lapse rate of observation sites and label each station as stable, conditional unstable, or unstable.
