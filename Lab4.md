@@ -24,7 +24,7 @@ rs = (287.0/461.5) * es ./ (p - es);
 
 The moist diabatic lapse rate is defined by the following expression,
 \\[
-\Gamma_m = \frac{g}{c_{pd}}\cdot \frac{1+r_s}{1 + r_s c_{pv} /c_{pd}}\cdot \\
+\Gamma_m = \frac{g}{c_{pd}} \frac{1+r_s}{1 + r_s c_{pv} /c_{pd}} 
 \frac{1 + L r_s/(R_d T)}{1 + L^2 r_s (1+r_s/\epsilon)/[R_v T^2 (c_{pd} + r_s c_{pv})]}
 \\]
 where \\(g = 9.8\,\mathrm{m\,s^{-2}}\\) is the gravitational constant, \\(c_{pd} = 
@@ -43,12 +43,6 @@ p = [100000.00, 97500.00, 95000.00, 92500.00, 90000.00, 87500.00, 85000.00, ...
      22500.00, 20000.00, 17500.00, 15000.00, 12500.00, 10000.00,  7000.00,  ...
      5000.00,  3000.00];
 ```
-
-\\[\begin{eqnarray} 
-y &=& x^4 + 4      \nonumber \\
-&=& (x^2+2)^2 -4x^2 \nonumber \\
-&\le&(x^2+2)^2    \nonumber
-\end{eqnarray}\\]
 
 
 
