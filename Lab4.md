@@ -44,5 +44,8 @@ p = [100000.00, 97500.00, 95000.00, 92500.00, 90000.00, 87500.00, 85000.00, ...
      5000.00,  3000.00];
 ```
 
-### Potential Temperature
+### Problem 3 Potential Temperature
+
+Calculate late potential temperature for the profiles given in Problem 3. Make a plot of potential temperature as a function of pressure.
+
 
