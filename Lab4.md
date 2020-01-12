@@ -24,8 +24,8 @@ rs = (287.0/461.5) * es ./ (p - es);
 
 The moist diabatic lapse rate is defined by the following expression,
 \\[
-\Gamma_m = \frac{g}{c_{pd}} \frac{1+r_s}{1 + r_s\frac{c_{pv}}{c_{pd}}} \left[ \frac{1 +
-\frac{L r_s}{R_d T}}{1 + \frac{L^2 r_s(1+r_s/\epsilon)}{R_v T^2 (c_{pd} + r_s c_{pv})}}\right]
+\Gamma_m = \frac{g}{c_{pd}} \frac{1+r_s}{1 + r_s c_{pv} c_{pd}} \left[ \frac{1 +
+{L r_s}/{R_d T}}{1 + {L^2 r_s(1+r_s/\epsilon)}/[{R_v T^2 (c_{pd} + r_s c_{pv})]}\right]
 \\]
 
 
