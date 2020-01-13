@@ -186,7 +186,7 @@ for i = 1:10
 end 
 newbal = bal + rate .* bal;
 format bank
-disp('Initial Balance | Rate | New Balance')
+disp('Initial Balance    |    Rate  |   New Balance')
 disp([bal' rate' newbal'])
 ```
 
