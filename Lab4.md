@@ -131,7 +131,19 @@ in which
 * if `condition` is true, `statementsA` are executed, but if `condition` is false, `statementsB` are executed. 
 * `else` is optional.
 
+#### _Exercises_
 
-
+Most banks offer differential interest rates. Suppose the rate is 9% if the amount in your savings account is less than $5000, but 12% otherwise. The Random Bank goes one step further and gives you a random amount in your account to start with! (by the command `rand` below) Run the following program  a few times:
+```
+format bank
+bal = 10000 * rand
+if bal < 5000
+   rate = 0.09
+else
+   rate = 0.12
+end
+newbal = bal + rate*bal
+```
+```
 
 
