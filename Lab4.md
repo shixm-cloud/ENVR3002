@@ -116,5 +116,22 @@ The following statements all assign logical expressions to the variable `x`. See
 >> x = 3==3
 >> x = 0<0.5<1
 ```
+Can you determine the last one correctly?
+
+A slightly more complicated `if` construct include the keyword `else`. The basic form of `if-else` for use in a program file is
+```
+if condition
+   statementsA
+else
+   statementsB
+end
+```
+in which 
+* statementsA and statementsB represent one or more statements.
+* if `condition` is true, `statementsA` are executed, but if `condition` is false, `statementsB` are executed. 
+* `else` is optional.
+
+
+
 
 
