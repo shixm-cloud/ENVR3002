@@ -186,9 +186,21 @@ for i = 1:10
 end 
 newbal = bal + rate .* bal;
 format bank
-disp('Initial Balance    |    Rate  |   New Balance')
+disp('Initial Balance         Rate      New Balance')
 disp([bal' rate' newbal'])
 ```
+
+More complicated logical expressions can be constructed using the three _logical operators_: `&` (and), `|` (or), `~` (not). For example, the quadratic equation
+\\[
+a x^2 + bx +c = 0
+\\]
+has equal roots, given by \\( -b/2a\\), provided that \\(b^2-4ac=0\\) and \\(a\neq 0\\). This translates into the following MATLAB statements:
+```
+if (b^2 -  4*a*c == 0) & (a ~= 0)
+    x = -b / (2*a) ;
+end
+```
+Of course, `a`, `b`, and `c` must be assgined values prior to using this set of statements.
 
 
 
