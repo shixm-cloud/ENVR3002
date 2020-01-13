@@ -172,21 +172,22 @@ This is called an `elseif` _ladder_. It works as follows:
 Suppose the Random Bank now offers 9% interest on balances of less than $5000, 12% for balances of $5000 or more but less than $10000, and 15% for balances of 10,000 or more. The following program caculates a customer's new balance after one year according to this scheme, for ten random initial balance created with the command `rand`.
 
 ```
-format bank
-bal = 15000 * rand(1,10)
+bal = 15000 * rand(1,10);
 newbal = zeros(1,10);   % initialize newbal to be zeros
+rate = zeros(1,10);     % initialize rate to be zeros
 for i = 1:10
     if bal(i) < 5000
-        rate = 0.09;
+        rate(i) = 0.09;
     elseif bal < 10000
-        rate = 0.12;
+        rate(i) = 0.12;
     else
-        rate = 0.15;
+        rate(i) = 0.15;
     end
-    newbal(i) = bal(i) + rate * bal(i);
 end 
-disp('New balances are:')
-disp(newbal)
+newbal = bal + rate .* bal;
+format bank
+disp('Initial Balance | Rate | New Balance')
+disp([bal' rate' newbal'])
 ```
 
 
