@@ -167,3 +167,27 @@ This is called an `elseif` _ladder_. It works as follows:
 * If non of the conditions is true, statements after `else` are executed.
 * There can be any number of `elseif`s, but at most one `else`. 
 
+#### _Exercises_
+
+Suppose the Random Bank now offers 9% interest on balances of less than $5000, 12% for balances of $5000 or more but less than $10000, and 15% for balances of 10,000 or more. The following program caculates a customer's new balance after one year according to this scheme, for ten random initial balance created with the command `rand`.
+
+```
+format bank
+bal = 15000 * rand(1,10)
+newbal = zeros(1,10);   % initialize newbal to be zeros
+for i = 1:10
+    if bal(i) < 5000
+        rate = 0.09
+    elseif bal < 10000
+        rate = 0.12
+    else
+        rate = 0.15
+    end
+    newbal(i) = bal(i) + rate * bal(i);
+end 
+disp('New balances are:')
+disp(newbal)
+```
+
+
+
