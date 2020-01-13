@@ -84,3 +84,11 @@ Write code to calculate the lapse rate of observation sites and label each stati
 ```        
 
 ### Appendix: _**Decisions**_
+
+The `if` construct is the basis of decision making. The simplest form of `if` in a single line is
+```
+if condition; statements; end
+```
+For this one-line `if` construct,
+* `condition` is usually a _logical expression_ (i.e., it contains a _relational operator_), which is either _true_ or _false_. The relational operators are shown in Table 4.1. 
+* If `condition` is true, _statement_ is executed, but if _condition_ is false, nothing happens.
