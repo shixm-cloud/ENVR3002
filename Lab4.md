@@ -144,6 +144,26 @@ else
 end
 newbal = bal + rate*bal
 ```
+
+The more complicated `if` construct includes `elseif`. 
+```
+if condition 1
+     statementsA
+elseif condition2
+     statementsB
+elseif condition3
+     statementsC
+...
+else
+     statementsE
+end
 ```
 
+This is called an `elseif` _ladder_. It works as follows:
+
+* `condition1` is tested first. If it is true, `statementsA` are executed; MATLAB then moves to the next statement after `end`.
+* If `condition1` is false, MATLAB checks `condition2`. If it is true, `statementsB` are executed, followed by statement after `end`.
+* In this way, all conditions are tested until a true one is found. As soon as a true condition is found, no further `elseif`s are examined and MATLAB jumps off the ladder.
+* If non of the conditions is true, statements after `else` are executed.
+* There can be any number of `elseif`s, but at most one `else`. 
 
