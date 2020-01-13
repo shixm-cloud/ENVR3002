@@ -104,6 +104,17 @@ For this one-line `if` construct,
 | >    | greater than |
 | >=   | greater than or equal |
 
+#### _Exercises_
 
+The following statements all assign logical expressions to the variable `x`. See if you can correctly determine the value of `x` in each case before checking your answer with MATLAB.
+```
+>> x = 3>2
+>> x = 2>3
+>> x = -4<=-3
+>> x = 1<1
+>> x = 2~=2
+>> x = 3==3
+>> x = 0<0.5<1
+```
 
 
