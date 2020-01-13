@@ -92,3 +92,18 @@ if condition; statements; end
 For this one-line `if` construct,
 * `condition` is usually a _logical expression_ (i.e., it contains a _relational operator_), which is either _true_ or _false_. The relational operators are shown in Table 4.1. 
 * If `condition` is true, _statement_ is executed, but if _condition_ is false, nothing happens.
+
+**Table 4.1** Relational operators
+
+| Relational operator | Meaning |
+|:------------------- |:------- |
+| <    | less than |
+| <=   | less than or equal |
+| ==   | equal |
+| ~=   | not equal |
+| >    | greater than |
+| >=   | greater than or equal |
+
+
+
+
