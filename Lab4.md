@@ -177,11 +177,11 @@ bal = 15000 * rand(1,10)
 newbal = zeros(1,10);   % initialize newbal to be zeros
 for i = 1:10
     if bal(i) < 5000
-        rate = 0.09
+        rate = 0.09;
     elseif bal < 10000
-        rate = 0.12
+        rate = 0.12;
     else
-        rate = 0.15
+        rate = 0.15;
     end
     newbal(i) = bal(i) + rate * bal(i);
 end 
