@@ -7,7 +7,7 @@ The objective of this class is to familiarize yourself with some of the fundamen
 * Repetition (`for`)
 * Decision (`if`)
 
-The contents of this class prepare you for a large portion of the coding projects in this course.
+The contents of this class prepare you for the coding projects in this course.
 
 ### Variables
 
