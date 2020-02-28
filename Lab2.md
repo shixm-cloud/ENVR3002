@@ -5,6 +5,7 @@ The objective of this class is to familiarize yourself with some of the fundamen
 * Arrays (including vectors and matrices)
 * Operators
 * Repetition (`for`)
+* Decision (`if`)
 
 The contents of this class prepare you for a large portion of the coding projects in this course.
 
