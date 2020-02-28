@@ -313,7 +313,7 @@ The `for` construct above executes a group of statements in a loop for a specifi
 
 * `j:m:k` -- this form increments index by the value `m` on each iteration, or decrements index when `m` is negative.
 
-### Appendix: _**Decisions**_
+###  Decisions
 
 The `if` construct is the basis of decision making. The simplest form of `if` in a single line is
 ```
