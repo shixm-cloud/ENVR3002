@@ -313,3 +313,121 @@ The `for` construct above executes a group of statements in a loop for a specifi
 
 * `j:m:k` -- this form increments index by the value `m` on each iteration, or decrements index when `m` is negative.
 
+### Appendix: _**Decisions**_
+
+The `if` construct is the basis of decision making. The simplest form of `if` in a single line is
+```
+if condition; statements; end
+```
+For this one-line `if` construct,
+* `condition` is usually a _logical expression_ (i.e., it contains a _relational operator_), which is either _true_ or _false_. The relational operators are shown in Table 4.1. 
+* If `condition` is true, _statement_ is executed, but if _condition_ is false, nothing happens.
+
+**Table 4.1** Relational operators
+
+| Relational operator | Meaning |
+|:------------------- |:------- |
+| <    | less than |
+| <=   | less than or equal |
+| ==   | equal |
+| ~=   | not equal |
+| >    | greater than |
+| >=   | greater than or equal |
+
+#### _Exercises_
+
+The following statements all assign logical expressions to the variable `x`. See if you can correctly determine the value of `x` in each case before checking your answer with MATLAB.
+```
+>> x = 3>2
+>> x = 2>3
+>> x = -4<=-3
+>> x = 1<1
+>> x = 2~=2
+>> x = 3==3
+>> x = 0<0.5<1
+```
+Can you determine the last one correctly?
+
+A slightly more complicated `if` construct include the keyword `else`. The basic form of `if-else` for use in a program file is
+```
+if condition
+   statementsA
+else
+   statementsB
+end
+```
+in which 
+* statementsA and statementsB represent one or more statements.
+* if `condition` is true, `statementsA` are executed, but if `condition` is false, `statementsB` are executed. 
+* `else` is optional.
+
+#### _Exercises_
+
+Most banks offer differential interest rates. Suppose the rate is 9% if the amount in your savings account is less than $5000, but 12% otherwise. The Random Bank goes one step further and gives you a random amount in your account to start with! (by the command `rand` below) Run the following program  a few times:
+```
+format bank
+bal = 10000 * rand
+if bal < 5000
+   rate = 0.09
+else
+   rate = 0.12
+end
+newbal = bal + rate*bal
+```
+
+The more complicated `if` construct includes `elseif`. 
+```
+if condition 1
+     statementsA
+elseif condition2
+     statementsB
+elseif condition3
+     statementsC
+...
+else
+     statementsE
+end
+```
+
+This is called an `elseif` _ladder_. It works as follows:
+
+* `condition1` is tested first. If it is true, `statementsA` are executed; MATLAB then moves to the next statement after `end`.
+* If `condition1` is false, MATLAB checks `condition2`. If it is true, `statementsB` are executed, followed by statement after `end`.
+* In this way, all conditions are tested until a true one is found. As soon as a true condition is found, no further `elseif`s are examined and MATLAB jumps off the ladder.
+* If non of the conditions is true, statements after `else` are executed.
+* There can be any number of `elseif`s, but at most one `else`. 
+
+#### _Exercises_
+
+Suppose the Random Bank now offers 9% interest on balances of less than $5000, 12% for balances of $5000 or more but less than $10000, and 15% for balances of 10,000 or more. The following program caculates a customer's new balance after one year according to this scheme, for ten random initial balance created with the command `rand`.
+
+```
+bal = 15000 * rand(1,10);
+newbal = zeros(1,10);   % initialize newbal to be zeros
+rate = zeros(1,10);     % initialize rate to be zeros
+for i = 1:10
+    if bal(i) < 5000
+        rate(i) = 0.09;
+    elseif bal < 10000
+        rate(i) = 0.12;
+    else
+        rate(i) = 0.15;
+    end
+end 
+newbal = bal + rate .* bal;
+format bank
+disp('Initial Balance         Rate      New Balance')
+disp([bal' rate' newbal'])
+```
+
+More complicated logical expressions can be constructed using the three _logical operators_: `&` (and), `|` (or), `~` (not). For example, the quadratic equation
+\\[
+a x^2 + bx +c = 0
+\\]
+has equal roots, given by \\( -b/2a\\), provided that \\(b^2-4ac=0\\) and \\(a\neq 0\\). This translates into the following MATLAB statements:
+```
+if (b^2 -  4*a*c == 0) & (a ~= 0)
+    x = -b / (2*a) ;
+end
+```
+Of course, `a`, `b`, and `c` must be assgined values prior to using this set of statements.
