@@ -93,7 +93,7 @@ disp([dU, -W])
   <sup>*</sup> _This is a homework assginment and you need to submit your code on Canvas_
   
   
-**TO BE RELEASED BEFORE CLASS**
+_**TO BE RELEASED BEFORE CLASS**_
 
 
 ### Appendix: _**Decisions**_
