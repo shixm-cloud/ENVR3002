@@ -41,7 +41,7 @@ environment. We also explained that the work
 W = \int p\,dV
 \\]
 where \\(p \\)is pressure. If \\(p \\) is constant during the volume change, then \\(W=p\Delta V \\). 
-![p-V diagram with constant p](p0V.svg = | width=200)
+![p-V diagram with constant p](p0V.svg | width=200)
 
 If \\(p \\)is not a constant, but you know the value of \\(p \\)as a set of points, e.g. `p = [100000, 80000, 60000, ...]`, and corresponding 
 volume values, `v = [0.8, 1.0, 1.2, ... ]`, then you 
