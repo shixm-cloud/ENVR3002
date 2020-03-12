@@ -91,8 +91,8 @@ disp([dU, -W])
 
 ### Problem 3 Static Stability<sup>*</sup>
   <sup>*</sup> _This is a homework assginment and you need to submit your code on Canvas_
-
-
+  
+  
 **TO BE RELEASED BEFORE CLASS**
 
 
