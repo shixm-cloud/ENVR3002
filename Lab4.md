@@ -92,65 +92,7 @@ disp([dU, -W])
 ### Problem 3 Static Stability<sup>*</sup>
   <sup>*</sup> _This is a homework assginment and you need to submit your code on Canvas_
 
-we learned that the dry adiabatic lapse rate is 9.8 K/km. For moist adiabatic process, the lapse rate is lower because of the latent heat release during the phase change of water. In this exercise you will compute the lapse rate in moist adiabatic lifting for a few locations and judge the air at each location is _absolutely stable_, _conditional unstable_, or _absolutely unstable_.
-
-During moist adiabatic lifting, the air is always saturated. For given temperature and pressure, you can calculate saturation mixing ratio with some formulas. The code below has already include the expressions to calculate moist adiabatic lapse rate (`Gm`). 
-
-
-Data below is observed at some locations in the Northeastern Indian Ocean. `z975` is the height of the 975 hPa pressure level, `zsfc` is the surface height of the observation station. `T975` and `Tsfc` are the temperature observed at the 975 hPa level and surface, respectively.
-
-
-**Please complete the code below to calculate the lapse rate of observation sites and label each station as _stable_, _conditional unstable_, or _unstable_. In your submision, please also explain the physical meaning of static stability**
-
-```
-% latitude: 5.55 -- 12.13 degree
-% longitude: 94.10
-% time: 2018-09-15_00:00:00
-% location: Northeastern Indian Ocean
-z975 = [313.07, 313.11, 313.36, 313.72, 314.11, 314.37, 314.44, 314.24, 313.76, 313.18, ...
-        312.64, 312.30, 312.15, 312.14, 312.02, 311.87, 311.71, 311.59, 311.29, 310.79, ... 
-        310.11, 309.37, 308.62, 307.93, 307.31, 306.75, 306.20, 305.70, 305.24, 304.80, ... 
-        304.33, 303.85, 303.33, 302.68, 301.94, 301.17, 300.47, 299.87, 299.40, 299.06];
-zsfc = [  0.00,   0.00,   0.00,   0.00,   0.00,   0.00,   0.00,   1.48,   7.18,   8.04, ...
-          2.12,   0.00,   0.00,   0.08,   0.00,   0.00,   0.00,   0.00,   0.00,   0.00, ...
-          0.00,   0.00,   0.00,   0.00,   0.00,   0.00,   0.00,   0.00,   0.00,   0.00, ...
-          0.00,   0.00,   0.00,   0.00,   0.00,   0.00,   0.00,   0.00,   0.00,   0.25];
-T975 = [296.93, 297.05, 297.12, 297.15, 297.11, 297.03, 296.96, 296.90, 296.84, 296.75, ...
-        296.63, 296.59, 296.60, 296.62, 296.52, 296.37, 296.19, 296.07, 295.98, 295.95, ... 
-        296.04, 296.26, 296.54, 296.78, 296.99, 297.16, 297.34, 297.46, 297.50, 297.43, ...
-        297.33, 297.24, 297.19, 297.12, 297.06, 297.00, 297.00, 297.02, 297.02, 296.97];      
-Tsfc = [299.98, 300.10, 300.24, 300.35, 300.42, 300.41, 300.34, 300.24, 300.19, 300.14, ...
-        300.09, 300.02, 299.94, 299.84, 299.68, 299.53, 299.42, 299.36, 299.34, 299.36, ... 
-        299.38, 299.41, 299.44, 299.47, 299.48, 299.48, 299.46, 299.43, 299.39, 299.35, ... 
-        299.24, 299.13, 299.09, 299.09, 299.13, 299.17, 299.22, 299.25, 299.26, 299.27];
-
-% environment lapse rate    
-Gamma = ?;
-
-% saturation vapor pressure in Pa
-es = 611.2 * exp(17.67 * (T975-273.15) ./ (T975 - 29.65));
-% saturation mixing ratio in kg/kg
-rs = (287.0/461.5) * es ./ (97500.0 - es);
-% moist adiabatic lapse rate, calculated with temperature and pressure at the 975-hPa level
-Gm = 9.8 / 1004.0 * (1 + rs) ./ (1 + rs*1870.0/1004.0) .* (1 + 2.5e6*rs/287.0./T975) ./ ...
-    (1 + (2.5e6)^2 * rs .* (1 + rs/(287.0/461.0)) ./ (461.0 * T975.^2 .* (1004.0+rs*1870.0)));  % K/m
-% dry adiabatic lapse rate
-Gd = 9.8e-3;
-
-disp(' ')
-disp(' Gamma (K/km)   Stability')
-disp(' -----------    ---------')
-
-for i = 1:numel(Gamma)
-    if (?) 
-        fprintf(' %8.2f       unstable \n', Gamma(i)*1000.0)
-    elseif (?)
-        fprintf(' %8.2f       conditional unstable \n', Gamma(i)*1000.0)
-    else
-        fprintf(' %8.2f       stable \n', Gamma(i)*1000.0)
-    end
-end
-```
+TO BE RELEASED BEFORE CLASS
 
 
 
