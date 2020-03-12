@@ -47,7 +47,7 @@ If \\(p \\)is not a constant, but you know the value of \\(p \\)as a set of poin
 volume values, `v = [0.8, 1.0, 1.2, ... ]`, then you 
 can approximate the integral by the following discretization 
 \\[
-\int p\,dV = \sum p_{k+\frac12} \Delta V = p_{1+\frac12}\Delta V + p_{2+\frac12}\Delta V + ...
+\int p\,dV \approx \sum p_{k+\frac12} \Delta V = p_{1+\frac12}\Delta V + p_{2+\frac12}\Delta V + ...
 \\]
 where \\(p_{k+\frac12} \\) is the mean pressure between \\(p_{k} \\)and \\(p_{k+1} \\).
 
