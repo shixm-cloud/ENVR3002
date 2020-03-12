@@ -41,7 +41,7 @@ environment. We also explained that the work
 W = \int p\,dV
 \\]
 where \\(p \\)is pressure. If \\(p \\) is constant during the volume change, then \\(W=p\Delta V \\). 
-![p-V diagram with constant p](p0V.svg=250x250)
+![p-V diagram with constant p](p0V.svg)
 
 If \\(p \\)is not a constant, but you know the value of \\(p \\)as a set of points, e.g. `p = [100000, 80000, 60000, ...]`, and corresponding 
 volume values, `v = [0.8, 1.0, 1.2, ... ]`, then you 
@@ -50,7 +50,7 @@ can approximate the integral by the following discretization
 \int p\,dV \approx \sum p_{k+\frac12} \Delta V = p_{1+\frac12}\Delta V + p_{2+\frac12}\Delta V + ...
 \\]
 where \\(p_{k+\frac12} \\) is the mean pressure between \\(p_{k} \\)and \\(p_{k+1} \\).
-![p-V diagram](pV.svg | width=250x250)
+![p-V diagram](pV.svg)
 
 Now let's suppose we have an air parcel whose mass is 1 kg. It is initially at the surface (1000 hPa) and has the temperature
 23.52 <sup>o</sup>C. If this air parcel is lifted to 700 hPa adiabatically (i.e. \\(Q=0 \\)), with the data of pressure and height
