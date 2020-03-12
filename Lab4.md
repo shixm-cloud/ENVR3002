@@ -94,18 +94,10 @@ disp([dU, -W])
 
 we learned that the dry adiabatic lapse rate is 9.8 K/km. For moist adiabatic process, the lapse rate is lower because of the latent heat release during the phase change of water. In this exercise you will compute the lapse rate in moist adiabatic lifting for a few locations and judge the air at each location is _absolutely stable_, _conditional unstable_, or _absolutely unstable_.
 
-During moist adiabatic lifting, the air is always saturated. For given temperature and pressure, you can calculate saturation mixing ratio with some formulas. The code below has already include the expressions to calculate moist adiabatic lapse rate (`Gm`). The moist diabatic lapse rate is defined by the following expression,
-\\[
-\Gamma_m = \frac{g}{c_{pd}} \frac{1+r_s}{1 + r_s c_{pv} /c_{pd}} 
-\frac{1 + L r_s/(R_d T)}{1 + L^2 r_s (1+r_s/\epsilon)/[R_v T^2 (c_{pd} + r_s c_{pv})]}
-\\]
-where \\(g = 9.8\,\mathrm{m\,s^{-2}}\\) is the gravitational constant, \\(c_{pd} = 
-1004\,\mathrm{J\,kg^{-1}\,K^{-1}}\\) and \\(c_{pv} = 1870\,\mathrm{J\,kg^{-1}\,K^{-1}}\\) are specific heat of dry air and water vapor, respectively, at constant pressure. \\(L = 2.5\times 10^6\,\mathrm{J\,kg^{-1}}\\) is the latent heat of vaporization. 
-\\(R_d = 287\,\mathrm{J\,kg^{-1}\,K^{-1}}\\) and \\(R_v = 461\,\mathrm{J\,kg^{-1}\,K^{-1}}\\) are gas constants of dry air and water vapor, respectively. \\( \epsilon = R_d/R_v\\). The code for this equation is already included in the code below.
+During moist adiabatic lifting, the air is always saturated. For given temperature and pressure, you can calculate saturation mixing ratio with some formulas. The code below has already include the expressions to calculate moist adiabatic lapse rate (`Gm`). 
 
 
 Data below is observed at some locations in the Northeastern Indian Ocean. `z975` is the height of the 975 hPa pressure level, `zsfc` is the surface height of the observation station. `T975` and `Tsfc` are the temperature observed at the 975 hPa level and surface, respectively.
-
 
 
 **Please complete the code below to calculate the lapse rate of observation sites and label each station as _stable_, _conditional unstable_, or _unstable_. In your submision, please also explain the physical meaning of static stability**
