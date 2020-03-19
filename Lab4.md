@@ -8,12 +8,12 @@ The first two problems are in-class practice and the **last one** is a **homewor
 Suppose the volume of a class room is 300 m<sup>3</sup>. For initial temperatures `T0` given be the following vector, 
 * _How much heat is needed to be removed to cool the room to 21 <sup>o</sup>C_?
 
-```
+```matlab
 T0 = 24:33
 ```
 Assume the pressure in the room is always the same as the pressure outside, which is constant `p = 1000` hPa. You can ignore the change in the mass of air in the room during cooling, but should be aware of the difference in initial mass (due to the difference in temperature). The specific heats at constant pressure and constant volume are 1004 and 717 J kg<sup>-1</sup> K<sup>-1</sup>, respectively. For your reference, 1 kWh = 3.6 <span>&#215;</span> 10<sup>6</sup> J.
 
-```
+```matlab
 T0 = 24:33;
 dT = ?;  % temperature change due to cooling
 cp = 1004;
@@ -58,7 +58,7 @@ below, can you
 * _Find out the temperature and volume of this air parcel at the pressure levels given by the data below?_
 * _Calculate the total work done by this parcel to its environment due to its expansion in volume?_
 
-```
+```matlab
 m = 1.0;              % mass of the parcel
 T0 = 23.53 + 273.15;  % initial temperature
 % pressure levels
@@ -102,7 +102,7 @@ Data below is observed at some locations in the Northeastern Indian Ocean. `z975
 
 **Please complete the code below to calculate the lapse rate of observation sites and label each station as _stable_, _conditional unstable_, or _unstable_. In your submision, please also explain the physical meaning of static stability**
 
-```
+```matlab
 % latitude: 5.55 -- 12.13 degree
 % longitude: 94.10
 % time: 2018-09-15_00:00:00
@@ -191,7 +191,7 @@ The following statements all assign logical expressions to the variable `x`. See
 Can you determine the last one correctly?
 
 A slightly more complicated `if` construct include the keyword `else`. The basic form of `if-else` for use in a program file is
-```
+```matlab
 if condition
    statementsA
 else
@@ -206,7 +206,7 @@ in which
 #### _Exercises_
 
 Most banks offer differential interest rates. Suppose the rate is 9% if the amount in your savings account is less than $5000, but 12% otherwise. The Random Bank goes one step further and gives you a random amount in your account to start with! (by the command `rand` below) Run the following program  a few times:
-```
+```matlab
 format bank
 bal = 10000 * rand
 if bal < 5000
@@ -218,7 +218,7 @@ newbal = bal + rate*bal
 ```
 
 The more complicated `if` construct includes `elseif`. 
-```
+```matlab
 if condition 1
      statementsA
 elseif condition2
@@ -243,7 +243,7 @@ This is called an `elseif` _ladder_. It works as follows:
 
 Suppose the Random Bank now offers 9% interest on balances of less than $5000, 12% for balances of $5000 or more but less than $10000, and 15% for balances of 10,000 or more. The following program caculates a customer's new balance after one year according to this scheme, for ten random initial balance created with the command `rand`.
 
-```
+```matlab
 bal = 15000 * rand(1,10);
 newbal = zeros(1,10);   % initialize newbal to be zeros
 rate = zeros(1,10);     % initialize rate to be zeros
@@ -267,7 +267,7 @@ More complicated logical expressions can be constructed using the three _logical
 a x^2 + bx +c = 0
 \\]
 has equal roots, given by \\( -b/2a\\), provided that \\(b^2-4ac=0\\) and \\(a\neq 0\\). This translates into the following MATLAB statements:
-```
+```matlab
 if (b^2 -  4*a*c == 0) & (a ~= 0)
     x = -b / (2*a) ;
 end
