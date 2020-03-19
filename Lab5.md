@@ -1,5 +1,9 @@
 ## Radiation I
 
+In today's exercises, you will learn how to use radiation principles in weather observation and planetary science. 
+
+**The 2nd problem is a homework assignment. Please submit your code and an one-page explanation of the calculation you did.**
+
 ### Problem 1 Outgoing Longwave Radiation
 
 Observed data of outgoing longwave radiation (OLR) for a weather event is provided on Canvas. You will explore this data to understand how remote sensing works.
