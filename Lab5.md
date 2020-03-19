@@ -73,5 +73,5 @@ Given the data in the table below, please calculate flux density of solar radiat
 | Mars          | 1.52 | ? | 0.17 | ? |
 | Jupiter       | 5.18 | ? | 0.45 | ? |
 
-Here the distances are expressed in _astronomical units_, which are multiples of Earth-Sun distance.
+Here the distance is expressed in _astronomical units_, which are multiples of Earth-Sun distance.
 
