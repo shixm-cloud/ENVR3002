@@ -66,7 +66,7 @@ _Can you now see what weather system this is in the figures?_
 Given the data in the table below, please calculate flux density of solar radiation at the top of the atmosphere of those planets _F<sub>s</sub>_, and their equivalent blackbody temperature, _T<sub>e</sub>_.
 
 | Planet        | Distance from Sun | F<sub>s</sub> (W m<sup>-2</sup>)  | Albedo | T<sub>e</sub> |
-|:------------- |:-------------:| -----:|:-----:|
+|:------------- |:-------------:|:------:|:-----:|
 | Mercury       | 0.39 | ? | 0.06 | ? |
 | Venus         | 0.72 | ? | 0.78 | ? |
 | Earth         | 1.00 | 1368 | 0.30 | ? |
