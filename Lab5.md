@@ -20,6 +20,7 @@ contour(landmask, [0.5 0.5])
 hold off
 ```
 Running this code in MATLAB/OCTAVE, you should see the figure below,
+![OLR](OLR1.png)
 
 
 
