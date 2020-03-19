@@ -22,7 +22,7 @@ hold off
 Running this code in MATLAB/OCTAVE, you should see the figure below,
 ![OLR](OLR1.png)
 
-Now please calculate the equivalent blackbody temperature and plot it
+Now please **calculate the equivalent blackbody temperature** and plot it.
 ```
 [FILL YOUR OWN CODE HERE AND SAVE AS 'T']
 
@@ -36,4 +36,23 @@ hold on
 contour(landmask, [0.5 0.5]) 
 hold off
 ```
+
+We know that temperature decreases with height, so we can calculate an 'emission height' of OLR. Assume that the lapse rate in the atmosphere is 6.5 K/km and surface temperature is 20 <sup>o</sup>C, please calculate the 'emission height' corresponding to the equivalent blackbody temperature `T`. 
+```
+% assume surface temperature is 20 degree C, and lapse rate is 6.5 K/km
+H = [FILL YOUR OWN CODE HERE]
+
+f3 = figure;
+contourf(H, (1:1:16), 'LineColor', 'none')
+colormap("jet")
+colorbar
+caxis([1 16]);
+title('Equivalent Emission Height (km)')
+hold on
+contour(landmask, [0.5 0.5]) 
+hold off
+```
+
+_Can you now see what weather system this is in the figures?_
+
 
