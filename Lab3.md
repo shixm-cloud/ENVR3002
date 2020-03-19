@@ -5,7 +5,7 @@ In the exercises today you will explore the vetical structure of the atmosphere 
 ### Problem 1: Temperature Profile and Tropopause
 
 Firstly, copy the following lines to your script file to set up the vectors of observation data.
-```
+```matlab
 T = [300.54, 299.48, 298.53, 297.60, 296.75, 294.98, 293.22, 291.96, 291.52, ...
      291.25, 290.21, 286.64, 282.13, 277.68, 273.29, 269.22, 265.63, 259.86, ... 
      252.30, 243.56, 234.33, 229.56, 223.46, 216.49, 208.76, 200.06, 194.05, ... 
@@ -22,7 +22,7 @@ z = [    49.58,   273.79,   503.63,   738.49,   978.93,  1224.79,  1475.96, ...
       20771.87, 23965.36];
 ```
 These are data obtained at 00:00, September 15, 2018. You can display the data nicely by putting them in a MATLAB _table_. The following code does this job.
-```
+```matlab
 kLevel = (1:30);
 data = table(kLevel', z', p', T', 'VariableNames', ["kLevel", "z", "p", "T"]);
 disp(data)
@@ -44,7 +44,7 @@ where \\( R = 287\,\mathrm{J\,K^{-1} kg^{-1}}\\). Please use the ideal gas law a
 Now, if we assume the density profile is exponential with height, can you figure out the value of the **scale height** using the fraction of the density at tropopause to that at surface? Save you calculation result to `H`.
 
 Please plot the observed density profile and exponential profile in the same plot to verify if the exponential profile is a good approximation. The syntax to plot two lines in the same figure is
-```
+```matlab
 plot(x1, y1, s1, x2, y2, s2)
 ```
 where `s1` and `s2` are character strings to specify line properties. For example, you can set `s1` to `'r'` and `s2` to `'b'` for using red and blue colors in your plot.
@@ -95,7 +95,7 @@ T_{k+\frac12} = \frac{T_k + T_{k+1}}{2}
 Because the hypsometric equation uses temperature directly, instead of calculating density as an intermediate step, it is more convinient.
 
 Copy the following code to your script file to initialize the pressure and temperature vectors,
-```
+```matlab
 p = [101620.61,100000.00, 97500.00, 95000.00, 92500.00, 90000.00, 87500.00, ...
       85000.00, 82500.00, 80000.00, 77500.00, 75000.00, 70000.00, 65000.00, ...
       60000.00, 55000.00, 50000.00, 45000.00, 40000.00, 35000.00, 30000.00, ...
