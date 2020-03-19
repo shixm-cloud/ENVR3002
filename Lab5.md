@@ -9,7 +9,7 @@ In today's exercises, you will learn how to use radiation principles in weather 
 Observed data of outgoing longwave radiation (OLR) for a weather event is provided on Canvas. You will explore this data to understand how remote sensing works.
 
 Firstly, let's load and take a look at the data
-```
+```matlab
 % load data 
 load OLR1.mat 
 % look at what we have 
