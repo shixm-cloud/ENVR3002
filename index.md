@@ -15,6 +15,8 @@ _Essential MATLAB for Engineers and Scientists_ by Brian D. Hahn and Daniel T. V
 
 ### 5. [Radiation I](Lab5.md)
 
+### 6. [Radiation II](Lab6.md)
+
 
 
 
