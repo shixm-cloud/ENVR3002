@@ -38,7 +38,9 @@ fprintf('T    %7.3f  %7.3f  %7.3f\n', T)
 fprintf('a    %7.3f  %7.3f  %7.3f\n', a)
 ```
 
-### Problem 2. Monochromatic Flux Density and Reflectivity
+### Problem 2. Monochromatic Flux Density and Reflectivity<sup>*</sup>
+
+**<sup>*</sup>This is a homework assignement and you need to submit your code and answer**
 
 A body is emitting radiation with the following idealized spectrum of _monochromatic_ flux density.
 \\[
@@ -56,7 +58,7 @@ F_{\lambda} = \begin{cases}
 Now supppose an opaque surface with the following absorption spectrum is subject to the rediation described above,
 \\[
 \alpha_{\lambda} = \begin{cases}
-0 & \lambda < 0.70\,\mu\mathrm{m}\\
+0 & \lambda < 0.70\,\mu\mathrm{m}\\\
 1 & \lambda > 0.70\,\mu\mathrm{m}
 \end{cases}
 \\]
