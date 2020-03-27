@@ -51,4 +51,17 @@ F_{\lambda} = \begin{cases}
 \end{cases}
 \\]
 
+* _**Calculate the flux density of the radiation**_
+
+Now supppose an opaque surface with the following absorption spectrum is subject to the rediation described above,
+\\[
+\alpha_{\lambda} = \begin{cases}
+0 & \lambda < 0.70\,\mu\mathrm{m}\\
+1 & \lambda > 0.70\,\mu\mathrm{m}
+\end{cases}
+\\]
+
+* _**How much of the radiation is absorbed? How much is reflected?**_
+
+
 
