@@ -40,7 +40,7 @@ fprintf('a    %7.3f  %7.3f  %7.3f\n', a)
 
 ### Problem 2. Monochromatic Flux Density and Reflectivity
 
-A body is emitting radiation with the following idealized spectrum of monochromatic flux density.
+A body is emitting radiation with the following idealized spectrum of _monochromatic_ flux density.
 \\[
 F_{\lambda} = \begin{cases}
 0  & \lambda<0.35\,\mathrm{\mu m}\\\
