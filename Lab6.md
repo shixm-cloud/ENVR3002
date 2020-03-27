@@ -43,11 +43,11 @@ fprintf('a    %7.3f  %7.3f  %7.3f\n', a)
 A body is emitting radiation with the following idealized spectrum of monochromatic flux density.
 \\[
 F_{\lambda} = \begin{cases}
-0  & \lambda<0.35\,\mathsf{\mu m}\\\
-1.0 & 0.35\,\mu m<\lambda<0.50\,\mu m\\\
-0.5 & 0.50\,\mu m<\lambda<0.70\,\mu m\\\
-0.2 & 0.70\,\mu m<\lambda<1.00\,\mu m\\\
-0 & \lambda>1.00\,\mu m
+0  & \lambda<0.35\,\mathrm{\mu m}\\\
+1.0\,\mathrm{W\,m^{-2}\mu m^{-1}} & 0.35\,\mathrm{\mu m}<\lambda<0.50\,\mathrm{\mu m}\\\
+0.5\,\mathrm{W\,m^{-2}\mu m^{-1}} & 0.50\,\mathrm{\mu m}<\lambda<0.70\,\mathrm{\mu m}\\\
+0.2\,\mathrm{W\,m^{-2}\mu m^{-1}} & 0.70\,\mathrm{\mu m}<\lambda<1.00\,\mathrm{\mu m}\\\
+0 & \lambda>1.00\,\mathrm{\mu m}
 \end{cases}
 \\]
 
