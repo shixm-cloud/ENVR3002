@@ -1,12 +1,12 @@
 ## Radiation II
 {% include mathjax.html %}
 
-In class, we explained that the absorption of radiance by a layer of gas is determined by the following equation,
+In class, we explained that the absorption of radiation by a layer of gas is determined by the following equation,
 
 \\[
 I_{\lambda} = I_{\lambda 0} e^{-\tau_{\lambda}\sec\theta} = I_{\lambda 0} T_{\lambda}
 \\]
-where 
+where \\(I_{\lambda 0}\\) is the incident radiation intensity,
 \\[
 \tau_{\lambda} = \int_z^{z_0} k_{\lambda}\rho r\, dz
 \\]
