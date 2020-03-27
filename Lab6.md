@@ -23,13 +23,10 @@ Now suppose parallel beam radiation is passing through a layer which is 100 m th
 ```matlab
 % absorption coefficients
 k = [1.0e-3, 0.1, 1]';
-
 % normal optical depth
 tau = ?;
-
 % transmissivity
 T = ?;
-
 % absorptivity
 a = ?;
 
