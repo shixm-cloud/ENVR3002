@@ -1,6 +1,8 @@
 ## Radiation II
 {% include mathjax.html %}
 
+### Problem 1. Optical Depth
+
 In class, we explained that the absorption of radiation by a layer of gas is determined by the following equation,
 
 \\[
