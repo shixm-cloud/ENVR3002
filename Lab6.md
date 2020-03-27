@@ -55,7 +55,7 @@ F_{\lambda} = \begin{cases}
 
 * _**Calculate the flux density of the radiation**_
 
-Now supppose an opaque surface with the following absorption spectrum is subject to the rediation described above,
+Now supppose an opaque surface with the following absorption spectrum is subject to the radiation described above,
 \\[
 \alpha_{\lambda} = \begin{cases}
 0 & \lambda < 0.70\,\mu\mathrm{m}\\\
