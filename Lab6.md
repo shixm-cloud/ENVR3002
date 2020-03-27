@@ -43,10 +43,10 @@ fprintf('a    %7.3f  %7.3f  %7.3f\n', a)
 A body is emitting radiation with the following idealized spectrum of monochromatic flux density.
 \\[
 F_{\lambda} = \begin{cases}
-0 \\
-1.0 \\
-0.5 \\
-0.2 \\
+0 \\\
+1.0 \\\
+0.5 \\\
+0.2 \\\
 0
 \end{cases}
 \\]
