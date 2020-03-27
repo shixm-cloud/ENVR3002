@@ -1,5 +1,6 @@
 ## Radiation II
 {% include mathjax.html %}
+**The 2nd problem is a homework assignment. Please submit your code and an one-page explanation (PDF format is preferred) of the calculation you did.**
 
 ### Problem 1. Optical Depth
 
