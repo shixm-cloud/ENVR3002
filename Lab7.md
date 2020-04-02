@@ -22,3 +22,5 @@ S = \frac{1}{e_s}\frac{d e_s}{d T} \times 100\%
 \\]
 You can call this _S_ as the sensitivity of _e<sub>s</sub>_ to temperature. Plot _S_ as a function of _T_ with the command `plot`.
 
+_Can you say something about the response of atmospheric moisture to global warming based on the second figure you get?_
+
