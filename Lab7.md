@@ -9,7 +9,7 @@ As we mentioned in class, saturation vapor pressure _e<sub>s</sub>_ is a functio
 \\[
 e_s = 6.112 \exp\left( \frac{17.67 T}{T+243.5}\right)
 \\]
-where _T_ is temperature in degrees Celsius.
+where _T_ is temperature in degrees Celsius, and _e<sub>s</sub>_ is in hPa.
 
 Now, please calculate the saturation pressure for the tmperatures given below by `T` and make plot of _e<sub>s</sub>_ with Matlab/Octave function `plot`.
 ```
