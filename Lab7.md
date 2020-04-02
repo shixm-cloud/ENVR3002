@@ -18,7 +18,7 @@ T = (-30:1:30)';   % temperature values
 
 After obtaining _e<sub>s</sub>_ in Matlab/Octave, please use the array of _e<sub>s</sub>_ and _T_ to calculate fractional change in _e<sub>s</sub>_ for each 1 degree increase in temperature, that is, calculating 
 \\[
-S = \frac{1}{e_s}\frac{d e_s}{d T}
+S = \frac{1}{e_s}\frac{d e_s}{d T} \times 100\%
 \\]
-You can call this _S_ as the sensitivity of _e<sub>s</sub>_ to temperature. 
+You can call this _S_ as the sensitivity of _e<sub>s</sub>_ to temperature. Plot _S_ as a function of _T_ with the command `plot`.
 
