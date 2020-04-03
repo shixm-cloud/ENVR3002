@@ -25,24 +25,28 @@ You can call this _S_ as the sensitivity of _e<sub>s</sub>_ to temperature. Plot
 _Can you say something about the response of atmospheric moisture to global warming based on the second figure you get?_
 
 
-### Problem 2. Diurnal Cycle of Relative Humidity
+### Problem 2. Diurnal Cycle of Temperature and Dew Point
 
-The following is the temperature throughout one day, please _calculate the relative humidity (RH)_ for the entire day and plot RH as a function of time. Assume mixing ratio is 9 g/kg for all 24 hours and surface pressure is 1000 hPa.
+The following is the temperature throughout one day. You can assume mixing ratio is 9 g/kg for all 24 hours and surface pressure is 1000 hPa.
+
+please _calculate the dew point_ for the entire day and plot it along with the temperature time series. _When do you expect to see dew at surface during this day?_
 
 ```
 time = (0:24)';   % hours
 T = [14.41, 13.85, 13.33, 12.88, 12.51, 12.23, 12.00, 12.23, 12.88, 13.85, ...
      15.00, 16.15, 17.12, 17.77, 17.94, 18.00, 17.94, 17.77, 17.49, 17.12, ...
      16.67, 16.15, 15.59, 15.00, 14.41];
-f3 = figure;
-plot(time, T)
-xlabel('time (h)')
-ylabel('temperature ({\circ}C)')
-
-% assume mixing ratio is 9 g/kg and surface pressure is 1000hPa for the 
-% entire day (0 -- 24h), please calculate RH for the entire day.
-
-
 ```
+
+### Problem 3. Dew Point Temperature<sup>*</sup>
+
+**<sup>*</sup>This is a homework assignement and you need to submit your code and answer**
+
+With data (temperature, pressure, and mixing ratio) given in Problem 2, please calculate _relative humidity (RH)_ for the 24 hours. In your written explanation, please explain
+* _the definition of RH and how you calculated it from the data given here_, and 
+* _why RH exhibit strong diurnal variability while dew point temperature is constant throughout the day_
+
+
+
 
 
