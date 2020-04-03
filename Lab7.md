@@ -29,7 +29,14 @@ _Can you say something about the response of atmospheric moisture to global warm
 
 The following is the temperature throughout one day. You can assume mixing ratio is 9 g/kg for all 24 hours and surface pressure is 1000 hPa.
 
-please _calculate the dew point_ for the entire day and plot it along with the temperature time series. _When do you expect to see dew at surface during this day?_
+please _calculate the dew point_ for the entire day and plot it along with the temperature time series. You can use the following equation to calculate dew point temperature, 
+\\[
+T_d \approx \frac{243.5}{\left(\frac{17.67}{\ln\, e/6.112} \right) - 1}
+\\]
+where _T<sub>d</sub>_ is dew point temperature and _e_ is water vapor (partial) pressure.
+
+
+_When do you expect to see dew at surface during this day?_
 
 ```
 time = (0:24)';   % hours
@@ -44,7 +51,7 @@ T = [14.41, 13.85, 13.33, 12.88, 12.51, 12.23, 12.00, 12.23, 12.88, 13.85, ...
 
 With data (temperature, pressure, and mixing ratio) given in Problem 2, please calculate _relative humidity (RH)_ for the 24 hours. In your written explanation, please explain
 * _the definition of RH and how you calculated it from the data given here_, and 
-* _why RH exhibit strong diurnal variability while dew point temperature is constant throughout the day_
+* _why RH exhibit strong diurnal variability while dew point temperature is constant throughout the day._
 
 
 
