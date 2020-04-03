@@ -48,7 +48,7 @@ T = [14.41, 13.85, 13.33, 12.88, 12.51, 12.23, 12.00, 12.23, 12.88, 13.85, ...
 
 
 
-### Problem 3. Dew Point Temperature<sup>*</sup>
+### Problem 3. Diurnal Cycle of Relative Humidity<sup>*</sup>
 
 **<sup>*</sup>This is a homework assignement and you need to submit your code and answer**
 
