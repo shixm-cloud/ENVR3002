@@ -25,6 +25,7 @@ You can call this _S_ as the sensitivity of _e<sub>s</sub>_ to temperature. Plot
 _Can you say something about the response of atmospheric moisture to global warming based on the second figure you get?_
 
 
+
 ### Problem 2. Diurnal Cycle of Temperature and Dew Point
 
 The following is the temperature throughout one day. You can assume mixing ratio is 9 g/kg for all 24 hours and surface pressure is 1000 hPa.
@@ -44,6 +45,8 @@ T = [14.41, 13.85, 13.33, 12.88, 12.51, 12.23, 12.00, 12.23, 12.88, 13.85, ...
      15.00, 16.15, 17.12, 17.77, 17.94, 18.00, 17.94, 17.77, 17.49, 17.12, ...
      16.67, 16.15, 15.59, 15.00, 14.41];
 ```
+
+
 
 ### Problem 3. Dew Point Temperature<sup>*</sup>
 
