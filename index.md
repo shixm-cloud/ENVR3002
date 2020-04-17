@@ -19,6 +19,8 @@ _Essential MATLAB for Engineers and Scientists_ by Brian D. Hahn and Daniel T. V
 
 ### 7. [Cloud Physics I](Lab7.md)
 
+### 8. [Cloud Physics II](Lab8.md)
+
 
 
 
