@@ -1,6 +1,6 @@
 ## Cloud Physics II
 
-### 1. Temperature and Cloud Water and Ice
+### Problem 1. Temperature and Cloud Water and Ice
 
 Please download the data file [Lab8Data.mat](Lab8Data.mat) first. This file contains azimuthally averaged data from a tropical cyclone. You will plot the distribution of temperature, cloud water and ice, and vertical velocity to investigate the structure of a tropical cyclone.
 
@@ -50,7 +50,7 @@ title('ice cloud water mixing ratio (g/kg) and temperature ({\circ}C)')
 _Do you see the existance of supercooled water? In what temperature range do you see them?_
 
 
-### 2. Vertical Motions and Clouds<sup>*</sup>
+### Problem 2. Vertical Motions and Clouds<sup>*</sup>
 
 _**<sup>*</sup>This is a homework assignment. For this one, you do NOT need to submit your code. However your answer to the homework question below will be based on the plot you get, thus you still need to complete the code to obatin the figure**_
 
