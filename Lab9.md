@@ -1,5 +1,7 @@
 ## Atmospheric Dynamics I
 
+**Problem 2 is a homework assignment**. 
+
 Data for today's exercises and homework can be downloaded from Canvas or 
 [Sharepoint](https://gohkust-my.sharepoint.com/:u:/g/personal/shixm_ust_hk/EX8qpWmNIClFic5OzIdtQx4BKxOqla_o56CIg_e6M3YeWg?e=67f33u)
 
@@ -51,4 +53,33 @@ set(gca, 'FontSize', 18)
 hold off
 ```
 
+### Problem 2 Distribution of Wind Speed
 
+`u` and `v` in the dataset are the east-west and north-west components of wind (vectors). Please 
+* _**calculate wind speed and display it as color shading.**_
+* _**compare the figure you get here with the one from Problem 1, and describe the relation between pressure gradient force and wind speed**_
+
+```matlab
+%% Plot wind vectors and speed; overlay the maps
+spd = ?;
+
+f3 = figure;
+contourf(?, ?, ?, (1:70), 'LineColor', 'none')
+
+colormap('cool')
+colorbar
+caxis([1 70])
+hold on
+[C, h] = contour(X, Y, Z, (4900:100:5900), 'LineColor', 'k');
+clabel(C, h, 'FontSize', 12, 'LabelSpacing', 300)
+% plot wind vectors too
+quiver(X(1:4:end,1:4:end), Y(1:4:end,1:4:end), u(1:4:end,1:4:end), v(1:4:end, 1:4:end), ...
+    'Color', 'black', 'LineWidth', 1);
+grid on
+xlabel('longitude')
+ylabel('latitude')
+ylim([0 60])
+xlim([140 240])
+set(gca, 'FontSize', 18)
+hold off
+```
