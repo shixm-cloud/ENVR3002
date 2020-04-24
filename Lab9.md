@@ -58,8 +58,8 @@ hold off
 <sup>*</sup> **This is a homework assignment. Please submit your code and answer on Canvas.**
 
 `u` and `v` in the dataset are the east-west and north-west components of wind (vectors). Please 
-* _**calculate wind speed and display it as color shading.**_
-* _**compare the figure you get here with the one from Problem 1, and describe the relation between pressure gradient force and wind speed**_
+* _**Calculate wind speed and display it as color shading.**_
+* _**Compare the figure you get here with the one from Problem 1, and describe the relation between pressure gradient force and wind speed.**_
 
 ```matlab
 %% Plot wind vectors and speed; overlay the maps
