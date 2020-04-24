@@ -64,13 +64,17 @@ hold off
 spd = ?;
 
 f3 = figure;
+% plot wind speed as color shading with the function contourf
 contourf(?, ?, ?, (1:70), 'LineColor', 'none')
 
 colormap('cool')
 colorbar
 caxis([1 70])
 hold on
-[C, h] = contour(X, Y, Z, (4900:100:5900), 'LineColor', 'k');
+
+% plot height Z as contour lines with the function contour
+[C, h] = contour(?, ?, ?, (4900:100:5900), 'LineColor', 'k');
+
 clabel(C, h, 'FontSize', 12, 'LabelSpacing', 300)
 % plot wind vectors too
 quiver(X(1:4:end,1:4:end), Y(1:4:end,1:4:end), u(1:4:end,1:4:end), v(1:4:end, 1:4:end), ...
