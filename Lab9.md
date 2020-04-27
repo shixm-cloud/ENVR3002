@@ -62,6 +62,9 @@ hold off
 * _**Compare the figure you get here with the one from Problem 1, and describe the relation between pressure gradient force and wind speed.**_
 
 ```matlab
+load Lab9Data.mat.  % load data
+[X, Y] = meshgrid(lon, lat);   % create grid mesh
+
 %% Plot wind vectors and speed; overlay the maps
 spd = ?;
 
