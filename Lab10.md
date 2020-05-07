@@ -47,7 +47,9 @@ pbaspect([lon(end-1)-lon(2)  lat(end-1)-lat(2) 1])
 hold off
 ```
 
-### Problem 2. Distribution of Total Vorticity
+### Problem 2. Distribution of Total Vorticity<sup>*</sup>
+
+<sup>*</sup> **This is a homework assignment. Please submit your CODE on Canvas.**
 
 {% include mathjax.html %} 
 
