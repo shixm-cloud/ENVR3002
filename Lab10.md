@@ -49,7 +49,7 @@ hold off
 
 ### Problem 2. Distribution of Total Vorticity<sup>*</sup>
 
-<sup>*</sup> **This is a homework assignment. Please submit your CODE on Canvas.**
+<sup>*</sup> **This is a homework assignment. Please submit your CODE and FIGURE on Canvas.**
 
 {% include mathjax.html %} 
 
