@@ -23,6 +23,8 @@ _Essential MATLAB for Engineers and Scientists_ by Brian D. Hahn and Daniel T. V
 
 ### 9. [Atmospheric Dynamics I](Lab9.md)
 
+### 10. [Atmospheric Dynamics II](Lab10.md)
+
 
 
 
